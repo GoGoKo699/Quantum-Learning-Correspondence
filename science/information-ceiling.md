@@ -62,7 +62,7 @@ This is an upper bound on information, not a claim that it is all accessible or 
 ```math
 P_{\mathrm{guess}}
 =\frac1M\sum_i\mathrm{Tr}(E_i\omega_i)
-\le\sqrt{\frac CM}.
+\le\left(\frac{C}{M}\right)^{1/2}.
 ```
 
 **Proof.** Apply Hilbert–Schmidt Cauchy–Schwarz to the direct sum of the operators:
@@ -73,7 +73,7 @@ P_{\mathrm{guess}}
 &\le
 \left(\sum_i\mathrm{Tr}E_i^2\right)^{1/2}
 \left(\sum_i\mathrm{Tr}\omega_i^2\right)^{1/2}\\
-&\le\sqrt{D\cdot\frac{MC}{D}}
+&\le\left(D\cdot\frac{MC}{D}\right)^{1/2}
 =\sqrt{MC}.
 \end{aligned}
 ```

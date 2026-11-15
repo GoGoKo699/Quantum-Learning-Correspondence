@@ -6,7 +6,7 @@ These examples use the [canonical source and acquisition interfaces](../science/
 
 Write a Pauli label as $`w=(x,z)`$, in the order used by the [paired decoder](../science/paired-learning.md):
 
-| Label | Pauli, up to phase | Bell state $`(I\otimes W_b)|\Phi\rangle`$ when used as outcome label $`b`$ |
+| Label | Pauli, up to phase | Bell state $`(I\otimes W_b)\lvert\Phi\rangle`$ when used as outcome label $`b`$ |
 |---|---|---|
 | $`00`$ | $`I`$ | $`\Phi^+`$ |
 | $`10`$ | $`X`$ | $`\Psi^+`$ |
@@ -74,7 +74,7 @@ C_2=\frac{a_1^2+a_2}{2}=\frac{38}{27}.
 The unnormalized collision purity is $`\mathrm{Tr}\Omega_2^2=C_2/16=19/216`$. With four equally likely hidden Paulis, the [direct discrimination bound](../science/information-ceiling.md) gives
 
 ```math
-P_{\mathrm{guess}}\le\frac12\sqrt{\frac{38}{27}}
+P_{\mathrm{guess}}\le\frac12\left(\frac{38}{27}\right)^{1/2}
 \approx0.593171,
 \qquad
 P_{\mathrm{error}}\ge0.406829.
