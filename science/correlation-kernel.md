@@ -48,7 +48,7 @@ Equivalently, as an identity of formal power series,
 \frac1{\det(I-zTS^{\mathsf T})}.
 ```
 
-If $`T`$ has singular values $`s_j`$ with $`\|T\|_{\mathrm{op}}\lt1`$, its self-overlap satisfies
+If $`T`$ has singular values $`s_j`$ with $`\Vert T\Vert _{\mathrm{op}}\lt1`$, its self-overlap satisfies
 
 ```math
 K_N(T,T)
@@ -121,14 +121,14 @@ Then $`K_N(T,T)=\sum_{k=0}^Nh_k`$. Under strict contraction this increasing part
 
 ## What strict contraction means
 
-Every physical source with uniform marginals satisfies $`\|T\|_{\mathrm{op}}\le1`$. Indeed, for real vectors $`x,y`$, form $`A(x)=\sum_ax_aA_a`$ and $`B(y)=\sum_by_bB_b`$. Cauchy–Schwarz in the state $`\rho_T`$ gives
+Every physical source with uniform marginals satisfies $`\Vert T\Vert _{\mathrm{op}}\le1`$. Indeed, for real vectors $`x,y`$, form $`A(x)=\sum_ax_aA_a`$ and $`B(y)=\sum_by_bB_b`$. Cauchy–Schwarz in the state $`\rho_T`$ gives
 
 ```math
 |x^{\mathsf T}Ty|^2
 =|\mathrm{Tr}[\rho_T A(x)\otimes B(y)]|^2
 \le\mathrm{Tr}[\rho_T A(x)^2\otimes I]
 \mathrm{Tr}[\rho_T I\otimes B(y)^2]
-=\|x\|^2\|y\|^2.
+=\Vert x\Vert ^2\Vert y\Vert ^2.
 ```
 
 Strict contraction excludes an exactly correlated pair of normalized local observables. It supplies the finite determinant bound. When a singular value equals one, this proof no longer yields a constant ceiling; no universal consistency claim is made for that boundary. Likewise, parameter-dependent local marginals fall outside this theorem, because either unpaired list can then retain direct parameter information.

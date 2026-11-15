@@ -254,7 +254,7 @@ The single educational anchor is John Watrous, *The Theory of Quantum Informatio
 
 **Central question.** Which property of the source stops correlation loops from accumulating without bound?
 
-**Understanding target.** Interpret the singular values of $`T`$, explain the nonnegative coefficients in the self-kernel and show why $`\|T\|_{\mathrm{op}}\lt1`$ gives $`K_N(T,T)\le\det(I-TT^{\mathsf T})^{-1}`$ for every $`N`$. Distinguish this sufficient ceiling from a claim at singular value one.
+**Understanding target.** Interpret the singular values of $`T`$, explain the nonnegative coefficients in the self-kernel and show why $`\Vert T\Vert _{\mathrm{op}}\lt1`$ gives $`K_N(T,T)\le\det(I-TT^{\mathsf T})^{-1}`$ for every $`N`$. Distinguish this sufficient ceiling from a claim at singular value one.
 
 **Dependencies and story role.** Uses M08 and M17. It turns an exact formula into a uniform bound on the entire batch.
 

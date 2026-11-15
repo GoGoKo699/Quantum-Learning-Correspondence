@@ -26,9 +26,9 @@ Watrous writes the adjoint as an asterisk, uses column vectors in place of ket n
 
 The book's entropy notation is $`H`$ and its $`\log`$ has base two. Here $`S`$ denotes von Neumann entropy and $`\log`$ is natural. Thus a project information value in nats is converted to the book's bits by division by $`\ln 2`$. In particular, the ceiling below one nat is below $`1/\ln2`$ bits; it is not a claim of a ceiling below one bit.
 
-Watrous defines state fidelity as $`F(\rho,\sigma)=\|\sqrt\rho\sqrt\sigma\|_1`$. With a pure target, its square is the target overlap. The project's $`F_e`$ and $`F_{\mathrm{avg}}`$ use overlap scores, not this unsquared state-fidelity convention. Their relation is stated explicitly in [prediction](../science/prediction.md).
+Watrous defines state fidelity as $`F(\rho,\sigma)=\Vert \sqrt\rho\sqrt\sigma\Vert _1`$. With a pure target, its square is the target overlap. The project's $`F_e`$ and $`F_{\mathrm{avg}}`$ use overlap scores, not this unsquared state-fidelity convention. Their relation is stated explicitly in [prediction](../science/prediction.md).
 
-The project's $`D=d^{2N}`$ denotes a Hilbert-space dimension, while $`D(\omega\|\tau)`$ denotes relative entropy. Context distinguishes them. Pauli labels in the [paired decoder](../science/paired-learning.md) are binary vectors; they are not channel matrices.
+The project's $`D=d^{2N}`$ denotes a Hilbert-space dimension, while $`D(\omega\Vert \tau)`$ denotes relative entropy. Context distinguishes them. Pauli labels in the [paired decoder](../science/paired-learning.md) are binary vectors; they are not channel matrices.
 
 ## Where the textbook tools enter the proof
 
@@ -63,8 +63,8 @@ This exact overlap identity, its determinant ceiling, and its specialization to 
 Only after obtaining $`D\mathrm{Tr}\omega_w^2\le C`$ do the entropy tools enter. The [information proof](../science/information-ceiling.md) establishes
 
 ```math
-D(\omega_w\|I/D)\le\log C,\qquad
-\chi\le\sum_wp_wD(\omega_w\|I/D)\le\log C.
+D(\omega_w\Vert I/D)\le\log C,\qquad
+\chi\le\sum_wp_wD(\omega_w\Vert I/D)\le\log C.
 ```
 
 Theorem 5.49 then bounds every measurement's accessible information. The separate Hilbert–Schmidt argument on that page gives $`P_{\mathrm{guess}}\le\sqrt{C/M}`$ for $`M`$ equally likely labels. It is this direct inequality, rather than a substitution into a binary discrimination formula, that yields the Pauli success bound.

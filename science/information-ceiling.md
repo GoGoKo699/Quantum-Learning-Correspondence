@@ -7,12 +7,12 @@ The [exact kernel](correlation-kernel.md) bounds the purity of the entire anonym
 Let $`\tau=I/D`$ on the full batch Hilbert space. For any density operator $`\omega`$,
 
 ```math
-D(\omega\|\tau)
+D(\omega\Vert \tau)
 =\log D-S(\omega)
 \le\log\!\left(D\mathrm{Tr}\omega^2\right).
 ```
 
-Here $`D(\cdot\|\cdot)`$ is quantum relative entropy. To see the inequality directly, diagonalize $`\omega`$ with eigenvalues $`\lambda_j`$ and apply concavity of the logarithm with weights $`\lambda_j`$:
+Here $`D(\cdot\Vert \cdot)`$ is quantum relative entropy. To see the inequality directly, diagonalize $`\omega`$ with eigenvalues $`\lambda_j`$ and apply concavity of the logarithm with weights $`\lambda_j`$:
 
 ```math
 \sum_j\lambda_j\log\lambda_j
@@ -24,9 +24,9 @@ Zero eigenvalues are handled by continuity. Full rank of the source is unnecessa
 For an ensemble $`\{p_\theta,\omega_\theta\}`$ with average $`\overline\omega`$, the relative-entropy decomposition gives
 
 ```math
-\sum_\theta p_\theta D(\omega_\theta\|\tau)
+\sum_\theta p_\theta D(\omega_\theta\Vert \tau)
 =\chi(\{p_\theta,\omega_\theta\})
-+D(\overline\omega\|\tau).
++D(\overline\omega\Vert \tau).
 ```
 
 The last term is nonnegative. The same identity holds with an integral for a continuous prior. Hence a uniform purity bound $`D\mathrm{Tr}\omega_\theta^2\le C`$ implies
