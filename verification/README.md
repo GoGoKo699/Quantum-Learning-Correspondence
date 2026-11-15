@@ -27,3 +27,7 @@ The generic correlation-matrix cases matter: they check the cycle contraction wi
 The recorded run passes its stated finite checks. The universal statements follow from the analytical proofs in `science/`: small matrices and sampled demonstrations do not establish an all-sample-count bound. The coherent-program consequence uses an exact channel-to-POVM reduction and the standard entanglement-fidelity identity; it is an analytical statement, not a hardware experiment.
 
 No device benchmark, arbitrary-dimension exhaustive enumeration, source preparation experiment, or exhaustive priority certificate is claimed. Dense matrix construction deliberately stops at small sizes; the paired learner itself uses polynomial gate and classical decoding resources.
+
+## Hosted presentation
+
+The [hosted review tools](hosted_math/README.md) separately compare actual commit-pinned GitHub MathML with its source, including tables and both wide and narrow layouts. The repository's same-repository pull-request job uses read-only permissions and retains reports and screenshots for inspection. Those presentation checks and the scientific suite answer different questions; neither substitutes for the other.

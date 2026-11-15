@@ -33,6 +33,12 @@ Start with the [connected scientific account](science/README.md), or choose a di
 | What costs and assumptions control the comparison? | [Resources](science/resources.md) and [interpretation](science/interpretation.md) |
 | What is inherited from earlier work? | [Related work](references/RELATED_WORK.md) and [bibliography](references/references.bib) |
 
+## Learn the project
+
+The educational anchor is **John Watrous, *The Theory of Quantum Information* (2018)**. The [source bridge](learning/WATROUS_BRIDGE.md) connects its states, measurements, discrimination, entropy and permutation tools to the proofs here, and distinguishes the project's new argument from those foundations.
+
+Start with the [learning route](learning/README.md) and [complete worked examples](learning/WORKED_EXAMPLES.md). The [30-milestone map](learning/MILESTONES.md) has 12 background targets and 18 narrative targets, progressing from individual specimens to the whole learning obstruction. It is a common map of the project, independent of any reader's progress.
+
 ## Reproduce the finite checks
 
 Install the pinned dependency and run from the repository root:
@@ -43,6 +49,8 @@ python3 verification/check_science.py
 ```
 
 The [verification guide](verification/README.md) records the tested cases, actual outputs and limitations. The checks include direct shuffled density matrices, noncommuting correlation examples, Bell distributions and the finite-field decoder. Universal size-independent statements are proved analytically in the science pages.
+
+The separate [hosted mathematical review](verification/hosted_math/README.md) compares actual GitHub mathematics against its pinned source at wide and narrow widths. Source parsing and scientific checks do not by themselves establish correct hosted rendering.
 
 ## Scope
 
