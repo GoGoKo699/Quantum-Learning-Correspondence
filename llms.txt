@@ -1,0 +1,21 @@
+# Quantum Learning Correspondence
+
+The question is whether the same native quantum examples remain learnable after their input–output pairing is erased before any learner interaction. The central benchmark is efficient learning of an unknown n-qubit Pauli from separable private-seed stabilizer demonstrations, contrasted with an all-measurement information ceiling after one global shuffle.
+
+## Reading routes
+
+- Story: README.md, science/README.md, science/interpretation.md.
+- Exact assumptions and theorem statements: science/model.md.
+- Proof of the finite collision kernel and general uniform-marginal source extension: science/correlation-kernel.md.
+- Entropy, guessing and estimation consequences: science/information-ceiling.md.
+- Efficient paired algorithm and rank bound: science/paired-learning.md.
+- Coherent consumable quantum model and fidelity conversion: science/prediction.md.
+- Preparation, measurement, metadata and batch resources: science/resources.md.
+- Attribution and closest-model differences: references/RELATED_WORK.md and references/references.bib.
+- Reproduction: verification/README.md, verification/check_science.py and verification/results.json.
+
+## Essential distinctions
+
+The anonymous learner receives all specimens and may perform arbitrary collective quantum processing. Pairing is erased before measurement; measuring the true pairs first is a different interface. Preparation seeds, permutation records, their purifications and extra target calls are unavailable. A uniform target prior is explicit in guessing and fidelity bounds and implies a worst-case obstruction. The efficient paired decoder is proved at ideal visibility v=1. Information bounds cover 0<v<=1. Multiple independently tagged batches change the acquisition resource. All processor outcomes count. The scientific results do not establish a classical-data computational speedup or a noisy hardware threshold.
+
+The current proofs live in topic-based science pages. Numerical checks support their tested finite instances rather than certify every dimension. The source, stabilizer designs, classical cycle method and fidelity identity are inherited and attributed in references/RELATED_WORK.md.
