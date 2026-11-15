@@ -80,7 +80,7 @@ Logs are natural, so information is measured in nats.
 For every $`N\ge1`$ and every $`U`$, with $`D=d^{2N}`$,
 
 ```math
-D\operatorname{Tr}\!\left[\Omega_{N,v}(U)^2\right]
+D\mathrm{Tr}\!\left[\Omega_{N,v}(U)^2\right]
 =\sum_{k=0}^N\binom{k+p-1}{p-1}t^{2k}
 \le C_{d,v}.
 ```

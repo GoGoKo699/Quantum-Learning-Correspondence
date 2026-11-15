@@ -59,7 +59,7 @@ The first two equations give $`x=z=c`$. Substitution in the third gives $`c=1`$,
 For the same physical source, erase the correspondence between two output registers before any measurement. Set
 
 ```math
-C_N=D\operatorname{Tr}\Omega_N(W)^2,\qquad D=2^{2N}.
+C_N=D\mathrm{Tr}\Omega_N(W)^2,\qquad D=2^{2N}.
 ```
 
 This is normalized collision purity, independent of the hidden Pauli. It is not the probability of a collision between two classical Bell records. The [cycle formula](../science/correlation-kernel.md) has $`p=3`$ and $`t=1/3`$, giving cycle weight $`a_\ell=1+3t^{2\ell}`$.
@@ -71,7 +71,7 @@ a_1=\frac43,\qquad a_2=\frac{28}{27},\qquad
 C_2=\frac{a_1^2+a_2}{2}=\frac{38}{27}.
 ```
 
-The unnormalized collision purity is $`\operatorname{Tr}\Omega_2^2=C_2/16=19/216`$. With four equally likely hidden Paulis, the [direct discrimination bound](../science/information-ceiling.md) gives
+The unnormalized collision purity is $`\mathrm{Tr}\Omega_2^2=C_2/16=19/216`$. With four equally likely hidden Paulis, the [direct discrimination bound](../science/information-ceiling.md) gives
 
 ```math
 P_{\mathrm{guess}}\le\frac12\sqrt{\frac{38}{27}}

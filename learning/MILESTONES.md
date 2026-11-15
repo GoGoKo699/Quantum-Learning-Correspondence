@@ -226,7 +226,7 @@ The single educational anchor is John Watrous, *The Theory of Quantum Informatio
 
 **Central question.** Which terms survive when identity and correlation factors are expanded around one cycle?
 
-**Understanding target.** Explain why one traceless factor at a register gives zero, so a surviving cycle uses either no correlation edges or all of them. Derive conceptually the cycle weight $`1+\operatorname{Tr}[(TS^{\mathsf T})^\ell]`$ and recognize why noncommuting local bases do not invalidate it.
+**Understanding target.** Explain why one traceless factor at a register gives zero, so a surviving cycle uses either no correlation edges or all of them. Derive conceptually the cycle weight $`1+\mathrm{Tr}[(TS^{\mathsf T})^\ell]`$ and recognize why noncommuting local bases do not invalidate it.
 
 **Dependencies and story role.** Uses M08 and M15. It supplies the load-bearing quantum contraction step before any counting formula is applied.
 

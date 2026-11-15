@@ -9,7 +9,7 @@ Let $`\tau=I/D`$ on the full batch Hilbert space. For any density operator $`\om
 ```math
 D(\omega\|\tau)
 =\log D-S(\omega)
-\le\log\!\left(D\operatorname{Tr}\omega^2\right).
+\le\log\!\left(D\mathrm{Tr}\omega^2\right).
 ```
 
 Here $`D(\cdot\|\cdot)`$ is quantum relative entropy. To see the inequality directly, diagonalize $`\omega`$ with eigenvalues $`\lambda_j`$ and apply concavity of the logarithm with weights $`\lambda_j`$:
@@ -29,7 +29,7 @@ For an ensemble $`\{p_\theta,\omega_\theta\}`$ with average $`\overline\omega`$,
 +D(\overline\omega\|\tau).
 ```
 
-The last term is nonnegative. The same identity holds with an integral for a continuous prior. Hence a uniform purity bound $`D\operatorname{Tr}\omega_\theta^2\le C`$ implies
+The last term is nonnegative. The same identity holds with an integral for a continuous prior. Hence a uniform purity bound $`D\mathrm{Tr}\omega_\theta^2\le C`$ implies
 
 ```math
 \chi(\{p_\theta,\omega_\theta\})\le\log C.
@@ -57,11 +57,11 @@ This is an upper bound on information, not a claim that it is all accessible or 
 
 ## A direct discrimination inequality
 
-**Lemma 5.** Suppose $`M`$ equally likely density operators on a $`D`$-dimensional space obey $`D\operatorname{Tr}\omega_i^2\le C`$. For every POVM $`\{E_i\}_{i=1}^M`$,
+**Lemma 5.** Suppose $`M`$ equally likely density operators on a $`D`$-dimensional space obey $`D\mathrm{Tr}\omega_i^2\le C`$. For every POVM $`\{E_i\}_{i=1}^M`$,
 
 ```math
 P_{\mathrm{guess}}
-=\frac1M\sum_i\operatorname{Tr}(E_i\omega_i)
+=\frac1M\sum_i\mathrm{Tr}(E_i\omega_i)
 \le\sqrt{\frac CM}.
 ```
 
@@ -69,10 +69,10 @@ P_{\mathrm{guess}}
 
 ```math
 \begin{aligned}
-\sum_i\operatorname{Tr}(E_i\omega_i)
+\sum_i\mathrm{Tr}(E_i\omega_i)
 &\le
-\left(\sum_i\operatorname{Tr}E_i^2\right)^{1/2}
-\left(\sum_i\operatorname{Tr}\omega_i^2\right)^{1/2}\\
+\left(\sum_i\mathrm{Tr}E_i^2\right)^{1/2}
+\left(\sum_i\mathrm{Tr}\omega_i^2\right)^{1/2}\\
 &\le\sqrt{D\cdot\frac{MC}{D}}
 =\sqrt{MC}.
 \end{aligned}

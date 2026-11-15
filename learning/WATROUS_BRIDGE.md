@@ -60,7 +60,7 @@ The [kernel proof](../science/correlation-kernel.md) is the source-specific step
 
 This exact overlap identity, its determinant ceiling, and its specialization to the demonstration source are proved in this repository. They are not asserted as results of Watrous. The relative-permutation cycle method has a classical antecedent, credited in [related work](../references/RELATED_WORK.md); the calculation here acts on quantum states before a measurement is selected.
 
-Only after obtaining $`D\operatorname{Tr}\omega_w^2\le C`$ do the entropy tools enter. The [information proof](../science/information-ceiling.md) establishes
+Only after obtaining $`D\mathrm{Tr}\omega_w^2\le C`$ do the entropy tools enter. The [information proof](../science/information-ceiling.md) establishes
 
 ```math
 D(\omega_w\|I/D)\le\log C,\qquad
