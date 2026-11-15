@@ -82,7 +82,7 @@ To verify it, write $`a=(u,v)`$ and $`b=(x,z)`$. Summing over $`z`$ first gives 
 Using the indicator $`1_Q(b)=[1+(-1)^{q(b)}]/2`$ and the vanishing sum of a nontrivial character, we obtain
 
 ```math
-\mathbb E_{b\sim\operatorname{Unif}(Q)}(-1)^{[a,b]}
+\mathbb E_{b\sim\mathrm{Unif}(Q)}(-1)^{[a,b]}
 =\frac{(-1)^{q(a)}}{d+1},\qquad a\ne0.
 ```
 

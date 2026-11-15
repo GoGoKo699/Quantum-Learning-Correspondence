@@ -13,6 +13,10 @@ The question is whether the same native quantum examples remain learnable after 
 - Preparation, measurement, metadata and batch resources: science/resources.md.
 - Attribution and closest-model differences: references/RELATED_WORK.md and references/references.bib.
 - Reproduction: verification/README.md, verification/check_science.py and verification/results.json.
+- Learning entrypoint and complete examples: learning/README.md and learning/WORKED_EXAMPLES.md.
+- One selected educational source and the source-to-project bridge: learning/WATROUS_BRIDGE.md, anchored in John Watrous, The Theory of Quantum Information (2018).
+- Common 30-milestone understanding map: learning/MILESTONES.md, with 12 background and 18 narrative targets.
+- Hosted mathematical capture and its limits: verification/hosted_math/README.md.
 
 ## Essential distinctions
 

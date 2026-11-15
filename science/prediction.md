@@ -53,7 +53,7 @@ When the hidden label is $`w`$, the probability of the Bell outcome $`w`$ is
 ```math
 F_e(\mathcal E_w,W_w)
 =\langle\Phi_w|
-(\operatorname{id}\otimes\mathcal E_w)
+(\mathrm{id}\otimes\mathcal E_w)
 (|\Phi\rangle\langle\Phi|)
 |\Phi_w\rangle.
 ```

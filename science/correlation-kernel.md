@@ -9,8 +9,8 @@ The cycle-index machinery and its determinant form are established tools. The ca
 Let $`A`$ and $`B`$ have dimensions $`d_A`$ and $`d_B`$. Choose traceless Hermitian bases satisfying
 
 ```math
-\operatorname{Tr}(A_aA_c)=d_A\delta_{ac},\qquad
-\operatorname{Tr}(B_bB_e)=d_B\delta_{be}.
+\mathrm{Tr}(A_aA_c)=d_A\delta_{ac},\qquad
+\mathrm{Tr}(B_bB_e)=d_B\delta_{be}.
 ```
 
 A bipartite density operator with both marginals maximally mixed can be written uniquely as
@@ -24,7 +24,7 @@ A bipartite density operator with both marginals maximally mixed can be written 
 Its correlation matrix $`T`$ is real. Not every real matrix defines a positive density operator; positivity is part of the source assumption. Let $`\Omega_N(T)`$ be the state obtained by independently sampling $`N`$ pairs and uniformly permuting the $`B`$ registers, as in the [model](model.md). Set $`D=(d_Ad_B)^N`$ and
 
 ```math
-K_N(T,S)=D\operatorname{Tr}[\Omega_N(T)\Omega_N(S)].
+K_N(T,S)=D\mathrm{Tr}[\Omega_N(T)\Omega_N(S)].
 ```
 
 We use the formal convention $`K_0(T,S)=1`$.
@@ -36,8 +36,8 @@ For any two physical source matrices $`T,S`$,
 ```math
 K_N(T,S)
 =\frac1{N!}\sum_{\tau\in S_N}
-\prod_{c\in\operatorname{cyc}(\tau)}
-\left(1+\operatorname{Tr}[(TS^{\mathsf T})^{|c|}]\right).
+\prod_{c\in\mathrm{cyc}(\tau)}
+\left(1+\mathrm{Tr}[(TS^{\mathsf T})^{|c|}]\right).
 ```
 
 Equivalently, as an identity of formal power series,
@@ -48,7 +48,7 @@ Equivalently, as an identity of formal power series,
 \frac1{\det(I-zTS^{\mathsf T})}.
 ```
 
-If $`T`$ has singular values $`s_j`$ with $`\|T\|_{\mathrm{op}}\lt1`$, its self-overlap satisfies
+If $`T`$ has singular values $`s_j`$ with $`\Vert T\Vert _{\mathrm{op}}\lt1`$, its self-overlap satisfies
 
 ```math
 K_N(T,T)
@@ -64,7 +64,7 @@ Expand the two permutation averages in the definition of $`K_N`$. Invariance of 
 ```math
 K_N(T,S)
 =\frac D{N!}\sum_{\tau\in S_N}
-\operatorname{Tr}\!\left[
+\mathrm{Tr}\!\left[
 \rho_T^{\otimes N}
 (I\otimes P_\tau)\rho_S^{\otimes N}
 (I\otimes P_\tau^\dagger)\right].
@@ -82,7 +82,7 @@ If none are selected, normalized traces give one. If all are selected, orthogona
 T_{a_1b_1}S_{a_2b_1}
 T_{a_2b_2}S_{a_3b_2}\cdots
 T_{a_\ell b_\ell}S_{a_1b_\ell}
-=\operatorname{Tr}[(TS^{\mathsf T})^\ell].
+=\mathrm{Tr}[(TS^{\mathsf T})^\ell].
 ```
 
 The factors $`d_A,d_B`$ from these contractions cancel the state normalizations and the prefactor $`D`$. Distinct cycles use disjoint registers, so their factors multiply. Averaging over $`\tau`$ proves the first formula.
@@ -100,11 +100,11 @@ For cycle weights $`a_\ell`$, the permutation cycle index obeys
 \frac{a_\ell z^\ell}{\ell}\right).
 ```
 
-It follows by specifying the number $`m_\ell`$ of cycles of each length. The number of permutations of that type is $`N!/\prod_\ell(\ell^{m_\ell}m_\ell!)`$, and the sum over every $`m_\ell\ge0`$ factorizes into exponentials. Substitute $`a_\ell=1+\operatorname{Tr}[(TS^{\mathsf T})^\ell]`$ and use the formal identities
+It follows by specifying the number $`m_\ell`$ of cycles of each length. The number of permutations of that type is $`N!/\prod_\ell(\ell^{m_\ell}m_\ell!)`$, and the sum over every $`m_\ell\ge0`$ factorizes into exponentials. Substitute $`a_\ell=1+\mathrm{Tr}[(TS^{\mathsf T})^\ell]`$ and use the formal identities
 
 ```math
 \sum_{\ell\ge1}\frac{z^\ell}{\ell}=-\log(1-z),\qquad
-\sum_{\ell\ge1}\frac{z^\ell\operatorname{Tr}(M^\ell)}\ell
+\sum_{\ell\ge1}\frac{z^\ell\mathrm{Tr}(M^\ell)}\ell
 =-\log\det(I-zM).
 ```
 
@@ -121,21 +121,21 @@ Then $`K_N(T,T)=\sum_{k=0}^Nh_k`$. Under strict contraction this increasing part
 
 ## What strict contraction means
 
-Every physical source with uniform marginals satisfies $`\|T\|_{\mathrm{op}}\le1`$. Indeed, for real vectors $`x,y`$, form $`A(x)=\sum_ax_aA_a`$ and $`B(y)=\sum_by_bB_b`$. Cauchy–Schwarz in the state $`\rho_T`$ gives
+Every physical source with uniform marginals satisfies $`\Vert T\Vert _{\mathrm{op}}\le1`$. Indeed, for real vectors $`x,y`$, form $`A(x)=\sum_ax_aA_a`$ and $`B(y)=\sum_by_bB_b`$. Cauchy–Schwarz in the state $`\rho_T`$ gives
 
 ```math
 |x^{\mathsf T}Ty|^2
-=|\operatorname{Tr}[\rho_T A(x)\otimes B(y)]|^2
-\le\operatorname{Tr}[\rho_T A(x)^2\otimes I]
-\operatorname{Tr}[\rho_T I\otimes B(y)^2]
-=\|x\|^2\|y\|^2.
+=|\mathrm{Tr}[\rho_T A(x)\otimes B(y)]|^2
+\le\mathrm{Tr}[\rho_T A(x)^2\otimes I]
+\mathrm{Tr}[\rho_T I\otimes B(y)^2]
+=\Vert x\Vert ^2\Vert y\Vert ^2.
 ```
 
 Strict contraction excludes an exactly correlated pair of normalized local observables. It supplies the finite determinant bound. When a singular value equals one, this proof no longer yields a constant ceiling; no universal consistency claim is made for that boundary. Likewise, parameter-dependent local marginals fall outside this theorem, because either unpaired list can then retain direct parameter information.
 
 ## Specialization to transformed swap demonstrations
 
-For equal dimensions choose a traceless Hermitian basis $`A_a`$ with $`\operatorname{Tr}(A_aA_b)=d\delta_{ab}`$. The swap identity is
+For equal dimensions choose a traceless Hermitian basis $`A_a`$ with $`\mathrm{Tr}(A_aA_b)=d\delta_{ab}`$. The swap identity is
 
 ```math
 F=\frac1d\left(I+\sum_{a=1}^{p}A_a\otimes A_a\right).
