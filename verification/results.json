@@ -1,0 +1,418 @@
+{
+  "status": "passed",
+  "generated_at_utc": "2026-11-15T08:21:51.916659+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "platform": "Linux-6.18.57-x86_64-with-glibc2.41"
+  },
+  "script_sha256": "640ea472eb98f4c83ed884a789b8be05245c8f99568b1aa88e81275451a38364",
+  "floating_point_tolerance": 2e-11,
+  "cycle_identity": {
+    "cases": [
+      {
+        "N": 1,
+        "left": "generic_a",
+        "right": "generic_b",
+        "dense_overlap": 0.9759200000000001,
+        "cycle_coefficient": 0.97592,
+        "absolute_error": 1.1102230246251565e-16
+      },
+      {
+        "N": 1,
+        "left": "generic_a",
+        "right": "generic_a",
+        "dense_overlap": 1.080066,
+        "cycle_coefficient": 1.080066,
+        "absolute_error": 0.0
+      },
+      {
+        "N": 1,
+        "left": "generic_b",
+        "right": "werner_v1",
+        "dense_overlap": 1.0666666666666667,
+        "cycle_coefficient": 1.0666666666666667,
+        "absolute_error": 0.0
+      },
+      {
+        "N": 1,
+        "left": "werner_v1",
+        "right": "werner_v1",
+        "dense_overlap": 1.3333333333333333,
+        "cycle_coefficient": 1.3333333333333333,
+        "absolute_error": 0.0
+      },
+      {
+        "N": 2,
+        "left": "generic_a",
+        "right": "generic_b",
+        "dense_overlap": 0.9758503808000001,
+        "cycle_coefficient": 0.9758503808,
+        "absolute_error": 1.1102230246251565e-16
+      },
+      {
+        "N": 2,
+        "left": "generic_a",
+        "right": "generic_a",
+        "dense_overlap": 1.0847895617310002,
+        "cycle_coefficient": 1.084789561731,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "N": 2,
+        "left": "generic_b",
+        "right": "werner_v1",
+        "dense_overlap": 1.0660622222222225,
+        "cycle_coefficient": 1.0660622222222222,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "N": 2,
+        "left": "werner_v1",
+        "right": "werner_v1",
+        "dense_overlap": 1.4074074074074074,
+        "cycle_coefficient": 1.4074074074074074,
+        "absolute_error": 0.0
+      },
+      {
+        "N": 3,
+        "left": "generic_a",
+        "right": "generic_b",
+        "dense_overlap": 0.975875302729984,
+        "cycle_coefficient": 0.975875302729984,
+        "absolute_error": 0.0
+      },
+      {
+        "N": 3,
+        "left": "generic_a",
+        "right": "generic_a",
+        "dense_overlap": 1.0850416943739436,
+        "cycle_coefficient": 1.0850416943739434,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "N": 3,
+        "left": "generic_b",
+        "right": "werner_v1",
+        "dense_overlap": 1.0657792000000001,
+        "cycle_coefficient": 1.0657792,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "N": 3,
+        "left": "werner_v1",
+        "right": "werner_v1",
+        "dense_overlap": 1.4211248285322358,
+        "cycle_coefficient": 1.4211248285322358,
+        "absolute_error": 0.0
+      },
+      {
+        "N": 4,
+        "left": "generic_a",
+        "right": "generic_b",
+        "dense_overlap": 0.9758745646638446,
+        "cycle_coefficient": 0.975874564663844,
+        "absolute_error": 5.551115123125783e-16
+      },
+      {
+        "N": 4,
+        "left": "generic_a",
+        "right": "generic_a",
+        "dense_overlap": 1.0850546341597145,
+        "cycle_coefficient": 1.0850546341597138,
+        "absolute_error": 6.661338147750939e-16
+      },
+      {
+        "N": 4,
+        "left": "generic_b",
+        "right": "werner_v1",
+        "dense_overlap": 1.0657696414024693,
+        "cycle_coefficient": 1.065769641402469,
+        "absolute_error": 2.220446049250313e-16
+      },
+      {
+        "N": 4,
+        "left": "werner_v1",
+        "right": "werner_v1",
+        "dense_overlap": 1.4234110653863743,
+        "cycle_coefficient": 1.4234110653863739,
+        "absolute_error": 4.440892098500626e-16
+      }
+    ],
+    "minimum_density_eigenvalues": {
+      "generic_a": 0.13444282330132287,
+      "generic_b": 0.1363176446130191,
+      "werner_v1": 2.7755575615628914e-17
+    },
+    "correlation_commutator_frobenius_norm": 0.03766910670562816,
+    "max_absolute_error": 6.661338147750939e-16
+  },
+  "bell_and_fourier": {
+    "cases": [
+      {
+        "n": 1,
+        "d": 2,
+        "support_size": 3,
+        "exact_fourier_error": "0",
+        "maximum_affine_hyperplane_mass": "2/3",
+        "physical_hidden_labels_checked": [
+          0,
+          1,
+          3
+        ],
+        "max_bell_probability_error": 5.551115123125783e-17,
+        "max_bell_off_diagonal": 2.709806627360574e-18
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "support_size": 10,
+        "exact_fourier_error": "0",
+        "maximum_affine_hyperplane_mass": "3/5",
+        "physical_hidden_labels_checked": [
+          0,
+          1,
+          5,
+          15
+        ],
+        "max_bell_probability_error": 0.0,
+        "max_bell_off_diagonal": 0.0
+      },
+      {
+        "n": 3,
+        "d": 8,
+        "support_size": 36,
+        "exact_fourier_error": "0",
+        "maximum_affine_hyperplane_mass": "5/9",
+        "physical_hidden_labels_checked": [
+          0,
+          1,
+          9,
+          63
+        ],
+        "max_bell_probability_error": 6.938893903907228e-18,
+        "max_bell_off_diagonal": 1.0435737078445138e-18
+      },
+      {
+        "n": 4,
+        "d": 16,
+        "support_size": 136,
+        "exact_fourier_error": "0",
+        "maximum_affine_hyperplane_mass": "9/17",
+        "physical_hidden_labels_checked": [
+          0,
+          1,
+          17,
+          255
+        ],
+        "max_bell_probability_error": 8.673617379884035e-19,
+        "max_bell_off_diagonal": 2.168404344971009e-19
+      }
+    ]
+  },
+  "paired_decoder": {
+    "seed": 20261115,
+    "exact_rank_cases": [
+      {
+        "n": 1,
+        "N": 3,
+        "rank_failure_exact": "7/9",
+        "rank_failure_decimal": 0.7777777777777778,
+        "union_upper_bound": 1.0
+      },
+      {
+        "n": 1,
+        "N": 8,
+        "rank_failure_exact": "85/729",
+        "rank_failure_decimal": 0.11659807956104253,
+        "union_upper_bound": 0.23411065386374028
+      },
+      {
+        "n": 2,
+        "N": 5,
+        "rank_failure_exact": "1007/1250",
+        "rank_failure_decimal": 0.8056,
+        "union_upper_bound": 1.0
+      },
+      {
+        "n": 2,
+        "N": 12,
+        "rank_failure_exact": "20210881/625000000",
+        "rank_failure_decimal": 0.0323374096,
+        "union_upper_bound": 0.06530347008
+      }
+    ],
+    "seeded_decoder_cases": [
+      {
+        "n": 1,
+        "d": 2,
+        "N": 12,
+        "trials": 512,
+        "full_rank_trials": 502,
+        "wrong_full_rank_outputs": 0,
+        "analytical_rank_failure_upper_bound": 0.04624407977555361
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "N": 13,
+        "trials": 512,
+        "full_rank_trials": 504,
+        "wrong_full_rank_outputs": 0,
+        "analytical_rank_failure_upper_bound": 0.03918208204799998
+      },
+      {
+        "n": 3,
+        "d": 8,
+        "N": 14,
+        "trials": 512,
+        "full_rank_trials": 503,
+        "wrong_full_rank_outputs": 0,
+        "analytical_rank_failure_upper_bound": 0.03361673059123408
+      },
+      {
+        "n": 4,
+        "d": 16,
+        "N": 15,
+        "trials": 512,
+        "full_rank_trials": 503,
+        "wrong_full_rank_outputs": 0,
+        "analytical_rank_failure_upper_bound": 0.036683772970904936
+      }
+    ],
+    "simulation_interpretation": "Observed trials illustrate the decoder; the analytical rank bound, not a passing simulation frequency, supplies its universal guarantee."
+  },
+  "finite_constants": {
+    "cases": [
+      {
+        "n": 1,
+        "d": 2,
+        "C_d": 1.423828125,
+        "log_C_d_upper_bound": 0.375,
+        "guessing_upper_bound": 0.5966213466261495,
+        "average_gate_fidelity_upper_bound": 0.7310808977507662
+      },
+      {
+        "n": 2,
+        "d": 4,
+        "C_d": 1.8447244519528132,
+        "log_C_d_upper_bound": 0.625,
+        "guessing_upper_bound": 0.3395515840738353,
+        "average_gate_fidelity_upper_bound": 0.4716412672590682
+      },
+      {
+        "n": 3,
+        "d": 8,
+        "C_d": 2.187192504306864,
+        "log_C_d_upper_bound": 0.7875,
+        "guessing_upper_bound": 0.18486449870052052,
+        "average_gate_fidelity_upper_bound": 0.2754351099560182
+      },
+      {
+        "n": 4,
+        "d": 16,
+        "C_d": 2.4202795112222537,
+        "log_C_d_upper_bound": 0.8854166666666666,
+        "guessing_upper_bound": 0.09723279714536617,
+        "average_gate_fidelity_upper_bound": 0.15033675025446228
+      },
+      {
+        "n": 5,
+        "d": 32,
+        "C_d": 2.559534776289964,
+        "log_C_d_upper_bound": 0.9402573529411765,
+        "guessing_upper_bound": 0.04999545659328124,
+        "average_gate_fidelity_upper_bound": 0.0787834730601515
+      },
+      {
+        "n": 6,
+        "d": 64,
+        "C_d": 2.636218461117132,
+        "log_C_d_upper_bound": 0.9694602272727273,
+        "guessing_upper_bound": 0.025369430871300103,
+        "average_gate_fidelity_upper_bound": 0.04036374731943394
+      },
+      {
+        "n": 7,
+        "d": 128,
+        "C_d": 2.676542114529953,
+        "log_C_d_upper_bound": 0.9845552884615385,
+        "guessing_upper_bound": 0.012781360106422206,
+        "average_gate_fidelity_upper_bound": 0.020434217780015834
+      },
+      {
+        "n": 8,
+        "d": 256,
+        "C_d": 2.6972302418663103,
+        "log_C_d_upper_bound": 0.9922329215116279,
+        "guessing_upper_bound": 0.006415330647256919,
+        "average_gate_fidelity_upper_bound": 0.01028141885485514
+      },
+      {
+        "n": 9,
+        "d": 512,
+        "C_d": 2.7077099941184835,
+        "log_C_d_upper_bound": 0.9961051495622568,
+        "guessing_upper_bound": 0.003213890774539369,
+        "average_gate_fidelity_upper_bound": 0.005156943619033444
+      },
+      {
+        "n": 10,
+        "d": 1024,
+        "C_d": 2.712984323761317,
+        "log_C_d_upper_bound": 0.9980497304459064,
+        "guessing_upper_bound": 0.0016085097047838868,
+        "average_gate_fidelity_upper_bound": 0.002582550183120683
+      },
+      {
+        "n": 11,
+        "d": 2048,
+        "C_d": 2.7156301694946174,
+        "log_C_d_upper_bound": 0.9990241520579268,
+        "guessing_upper_bound": 0.0008046469327451898,
+        "average_gate_fidelity_upper_bound": 0.0012922971782636157
+      },
+      {
+        "n": 12,
+        "d": 4096,
+        "C_d": 2.7169552711014764,
+        "log_C_d_upper_bound": 0.9995118974766655,
+        "guessing_upper_bound": 0.000402421611999938,
+        "average_gate_fidelity_upper_bound": 0.0006464044234200015
+      },
+      {
+        "n": 13,
+        "d": 8192,
+        "C_d": 2.7176183676584404,
+        "log_C_d_upper_bound": 0.9997559040675723,
+        "guessing_upper_bound": 0.0002012353581253542,
+        "average_gate_fidelity_upper_bound": 0.0003232662094181498
+      },
+      {
+        "n": 14,
+        "d": 16384,
+        "C_d": 2.717950052509147,
+        "log_C_d_upper_bound": 0.9998779408620068,
+        "guessing_upper_bound": 0.00010062381906048078,
+        "average_gate_fidelity_upper_bound": 0.00016164910903185335
+      },
+      {
+        "n": 15,
+        "d": 32768,
+        "C_d": 2.718115929094303,
+        "log_C_d_upper_bound": 0.9999389676375472,
+        "guessing_upper_bound": 5.0313444775600984e-05,
+        "average_gate_fidelity_upper_bound": 8.082855620882216e-05
+      },
+      {
+        "n": 16,
+        "d": 65536,
+        "C_d": 2.7181988759289264,
+        "log_C_d_upper_bound": 0.9999694831203456,
+        "guessing_upper_bound": 2.5157106229885758e-05,
+        "average_gate_fidelity_upper_bound": 4.0415278604174634e-05
+      }
+    ]
+  },
+  "scope": "Small dense quantum-state checks, exact finite binary-field enumeration, exact rational small-rank distributions, and seeded decoder demonstrations. These do not numerically certify the all-N theorem, exhaustive novelty, physical hardware, or optimal implementation complexity."
+}
