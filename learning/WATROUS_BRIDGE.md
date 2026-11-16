@@ -1,4 +1,6 @@
-# From Watrous to quantum learning with lost correspondence
+# Supplementary Watrous foundations for correspondence learning
+
+The selected common educational anchor is [Petz (2008)](PETZ_BRIDGE.md). This supplementary route retains additional finite-dimensional references for the source, measurements, entropy and permutation algebra. The full growing-batch sufficiency proof is developed in the [Petz bridge](PETZ_BRIDGE.md) and [scientific account](../science/separate-list-readout.md).
 
 The reference is John Watrous, [*The Theory of Quantum Information*](https://cs.uwaterloo.ca/~watrous/TQI/), Cambridge University Press, 2018, [DOI: 10.1017/9781316848142](https://doi.org/10.1017/9781316848142). The author's landing page provides chapter links and describes publication in April 2018.
 

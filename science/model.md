@@ -120,4 +120,26 @@ Allow a learner to retain a quantum program from the anonymous batch and consume
 
 By contrast, the paired learner at $`v=1`$ can identify $`w`$ with failure at most $`\delta`$ and then apply its Pauli circuit, attaining average input fidelity at least $`1-d\delta/(d+1)`$ for every $`w`$. The [prediction page](prediction.md) proves both assertions.
 
+## Theorem 7: all surviving information admits separate collective readout
+
+Fix $`d`$ and a known $`0\lt v\le1`$. There are target-independent collective measurements $`M_N^A,M_N^B`$ of the input and output lists separately, and local reconstruction channels $`R_N^A,R_N^B`$, such that
+
+```math
+\sup_{U\in U(d)}\left\Vert \Omega_{N,v}(U)-
+(R_N^A\otimes R_N^B)(M_N^A\otimes M_N^B)
+\bigl(\Omega_{N,v}(U)\bigr)\right\Vert _1\longrightarrow0.
+```
+
+The reconstructed state is prepared from ordinary classical records. Consequently every bounded decision score, including the single-use coherent prediction score, is retained up to an error tending to zero. Within-list collective control remains allowed.
+
+More generally this holds uniformly on every compact family of physical uniform-marginal correlation matrices with operator norm bounded strictly below one. The complete quantum experiment is asymptotically equivalent to one centered Gaussian observation with covariance
+
+```math
+\Sigma_T=\begin{pmatrix}I&T\\T^{\mathsf T}&I\end{pmatrix}.
+```
+
+For this source $`T=tR_U`$, where $`R_U`$ is an orthogonal adjoint representation and $`t=v/(d+v)`$. The [authoritative theorem and proof](separate-list-readout.md) give the normalized Hilbert–Schmidt recovery bound, the target-independent receiver, and the two-way classical randomizations. The limiting Gaussian covariance observation does not remove the preceding finite information ceiling.
+
+The new statement fixes dimensions and a strict contraction bound. It gives no efficient receiver or convergence rate, and no Fisher-information or rescaled precision conclusion. For $`m`$ independently tagged batches of size $`b`$, direct tensorization has error at most $`m\varepsilon_b`$, where $`\varepsilon_b\to0`$ is the one-batch reconstruction bound. Thus growing $`m`$ needs an explicit rate condition or diagonal schedule. These restrictions differ from the dimension-uniform finite-batch converse above.
+
 These theorems concern native quantum data and a specified loss of correspondence. They do not establish a classical-data computational speedup, a noisy-device implementation threshold or an obstruction for arbitrary demonstration sources. The [resource account](resources.md) and [interpretation](interpretation.md) delimit those conclusions.

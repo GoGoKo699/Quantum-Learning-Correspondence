@@ -24,6 +24,16 @@ No access is supplied to the permutation record, a purification of the erasure, 
 
 Producing a uniformly random permutation itself needs randomness and physical routing. An implementation may charge those operations separately. The theorem studies the resulting source channel and does not claim a runtime improvement from shuffling. Describing a complete arbitrary correspondence after the shuffle would take $`\lceil\log_2(N!)\rceil`$ bits in a fixed-length index. This observation is not a proof that that many metadata bits are necessary for learning: the optimal partial-correspondence budget is a different question. In the paired interface, preserved physical routing may already provide the association without a separate transmitted index.
 
+## Separate collective readout of a growing list
+
+The [separate-list receiver](separate-list-readout.md) acts on the same anonymous source. It stores each whole list coherently until a collective projective measurement of that list. No quantum gate between the input and output lists is needed. Entangling control within each list remains available, and the source still supplies all $`2nN`$ specimen qubits when $`d=2^n`$.
+
+For a fixed finite set of Fourier frequencies, a normalized-Hilbert–Schmidt almost-commuting theorem provides exactly commuting approximants and their common spectral projectors. A diagonal schedule refines that frequency set as the batch grows. This proves that a target-independent receiver exists; it does not bound useful gate complexity, measurement synthesis, runtime, or noise sensitivity. The classical spectral labels and the subsequent classical processing may also be costly. No small classical-record theorem is asserted.
+
+The reconstruction map prepares the known normalized projector $`P_i/\mathrm{Tr}P_i`$ on each side. This is a parameter-independent physical preparation, used to certify statistical sufficiency. It supplies no permutation, preparation seed, purification, unknown-target call, or extra specimen of a privately chosen source state. The maximally mixed reference and Gaussian variables in the proof are mathematical comparison devices, not additional source records delivered to a protocol.
+
+The theorem fixes local dimensions and a compact physical correlation family whose operator norms stay strictly below one. It proves uniform trace-norm recovery and equivalence to one Gaussian covariance observation. It gives no finite-size rate, dimension-growing guarantee or derivative bound. In particular, preservation of bounded risk up to $`o(1)`$ does not imply convergence of Fisher information or equality of a precision coefficient after multiplying errors by a growing sample budget.
+
 ## Why chronology matters
 
 For the Pauli family, the paired density operators commute in one Bell basis. Bell measurement of the actual pairs therefore produces a sufficient classical record for their identification task. Erasing association after that measurement cannot remove information already encoded in those records. The impossibility theorem applies when the association disappears before any learner interaction with the specimens.
@@ -40,6 +50,8 @@ P_{\mathrm{guess}}\le
 ```
 
 for the uniform Pauli task. These are upper bounds; they do not establish optimal dependence on batch count or its attainability. Taking every batch to contain one known input–output pair recovers the paired acquisition interface, so no contradiction is present.
+
+For $`m`$ independent tagged batches of $`b`$ pairs, applying the separate-list receiver to each batch uses all $`mb`$ supplied pairs. Tensorization gives reconstruction error at most $`m\varepsilon_b`$, where $`\varepsilon_b\to0`$ is the one-batch normalized-Hilbert–Schmidt error bound and also bounds its trace error. Hence fixed $`m`$ is covered as $`b\to\infty`$. Simultaneous growth needs $`m(b)\varepsilon_b\to0`$, or an explicit diagonal choice of batch size large enough for a stated number of batches and error. The existence proof provides no unrestricted two-parameter rate or exact many-batch precision law.
 
 ## Implementation limits
 

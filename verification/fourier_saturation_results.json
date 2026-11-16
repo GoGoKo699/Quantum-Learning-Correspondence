@@ -1,0 +1,607 @@
+{
+  "status": "passed",
+  "generated_at_utc": "2026-11-16T14:12:11.323626+00:00",
+  "baseline_source_pins": {
+    "Readout": "ce61966034a9b72ba1c846a354f8034f5e1a9285",
+    "Correspondence": "00d19bd0f60c6cd34ce4b77bb3268e52120efead"
+  },
+  "script_sha256": "34cc1b669d6db34fabd903afba3f7470094cfd776a7c3d793dbdfbf7d1105c9f",
+  "source_pin_scope": "Historical source revisions supplying the original pair model and collision kernel; these are not current integration-revision or hosted-rendering receipts.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5"
+  },
+  "dimension": 2,
+  "visibility": 0.5,
+  "correlation_singular_value": 0.2,
+  "floating_tolerance": 3e-10,
+  "noncommuting_hypotheses_commutator_frobenius": 0.6642238550020606,
+  "dictionary": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -1.0,
+      -0.0,
+      -0.0,
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -0.0,
+      -1.0,
+      -0.0,
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -1.0,
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -1.0,
+      -0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    [
+      -0.0,
+      -1.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      -0.0,
+      -0.0,
+      -1.0,
+      -1.0,
+      -0.0,
+      -0.0
+    ],
+    [
+      0.7071067811865475,
+      0.7071067811865475,
+      0.0,
+      0.0,
+      0.7071067811865475,
+      0.7071067811865475
+    ],
+    [
+      -0.7071067811865475,
+      -0.7071067811865475,
+      -0.0,
+      -0.0,
+      -0.7071067811865475,
+      -0.7071067811865475
+    ]
+  ],
+  "Gaussian_Gram_condition_number": 16.577667800760725,
+  "Gaussian_Gram_minimum_eigenvalue": 0.2343940028513944,
+  "max_dense_Gram_identity_error": 5.551115123125783e-16,
+  "dense_cases": [
+    {
+      "unitary": "identity",
+      "N": 1,
+      "max_characteristic_identity_error": 0.0,
+      "kernel_identity_error": 0.0,
+      "direct_L2_residual_identity_error": 4.2327252813834093e-16
+    },
+    {
+      "unitary": "identity",
+      "N": 2,
+      "max_characteristic_identity_error": 5.746844349388776e-17,
+      "kernel_identity_error": 0.0,
+      "direct_L2_residual_identity_error": 4.649058915617843e-16
+    },
+    {
+      "unitary": "identity",
+      "N": 3,
+      "max_characteristic_identity_error": 2.220446049250313e-16,
+      "kernel_identity_error": 4.440892098500626e-16,
+      "direct_L2_residual_identity_error": 3.608224830031759e-16
+    },
+    {
+      "unitary": "rotation_x_0.41",
+      "N": 1,
+      "max_characteristic_identity_error": 0.0,
+      "kernel_identity_error": 2.220446049250313e-16,
+      "direct_L2_residual_identity_error": 3.642919299551295e-16
+    },
+    {
+      "unitary": "rotation_x_0.41",
+      "N": 2,
+      "max_characteristic_identity_error": 1.1104452502299387e-16,
+      "kernel_identity_error": 0.0,
+      "direct_L2_residual_identity_error": 2.0122792321330962e-16
+    },
+    {
+      "unitary": "rotation_x_0.41",
+      "N": 3,
+      "max_characteristic_identity_error": 2.779024842816778e-16,
+      "kernel_identity_error": 4.440892098500626e-16,
+      "direct_L2_residual_identity_error": 0.0
+    },
+    {
+      "unitary": "rotation_z_0.63",
+      "N": 1,
+      "max_characteristic_identity_error": 0.0,
+      "kernel_identity_error": 0.0,
+      "direct_L2_residual_identity_error": 7.216449660063518e-16
+    },
+    {
+      "unitary": "rotation_z_0.63",
+      "N": 2,
+      "max_characteristic_identity_error": 1.1103585416259206e-16,
+      "kernel_identity_error": 0.0,
+      "direct_L2_residual_identity_error": 4.718447854656915e-16
+    },
+    {
+      "unitary": "rotation_z_0.63",
+      "N": 3,
+      "max_characteristic_identity_error": 2.220446049250313e-16,
+      "kernel_identity_error": 4.440892098500626e-16,
+      "direct_L2_residual_identity_error": 6.661338147750939e-16
+    }
+  ],
+  "finite_residuals": [
+    {
+      "unitary": "identity",
+      "correlations": [
+        [
+          0.2,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.2,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.2
+        ]
+      ],
+      "Gaussian_projection_coefficients": [
+        1.1400892068247728,
+        -0.10476301832761428,
+        -0.10476301832761428,
+        -0.09681522406741629,
+        -0.09681522406741627,
+        -0.1047630183276143,
+        -0.10476301832761428,
+        0.052756133135468196,
+        0.05275613313546818,
+        0.0527561331354682,
+        0.052756133135468154,
+        0.04119531913121009,
+        0.04119531913121008,
+        -0.030767297317011808,
+        -0.030767297317011773
+      ],
+      "cases": [
+        {
+          "N": 1,
+          "finite_fourier_L2_residual_squared": 0.017340080810475333,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.0699294909941861,
+          "kernel": 1.12
+        },
+        {
+          "N": 2,
+          "finite_fourier_L2_residual_squared": 0.061525882933113785,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.025743688871547654,
+          "kernel": 1.1296
+        },
+        {
+          "N": 3,
+          "finite_fourier_L2_residual_squared": 0.07233802685269985,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.014931544951961584,
+          "kernel": 1.1302400000000001
+        },
+        {
+          "N": 4,
+          "finite_fourier_L2_residual_squared": 0.07666551854191161,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.010604053262749824,
+          "kernel": 1.1302784000000001
+        },
+        {
+          "N": 8,
+          "finite_fourier_L2_residual_squared": 0.08234225175440857,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.00492732005025287,
+          "kernel": 1.130280671281152
+        },
+        {
+          "N": 16,
+          "finite_fourier_L2_residual_squared": 0.08488973785604048,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.0023798339486209574,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 64,
+          "finite_fourier_L2_residual_squared": 0.08668942515916145,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.0005801466454999904,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 256,
+          "finite_fourier_L2_residual_squared": 0.08712543259305061,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 0.00014413921161082754,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 1024,
+          "finite_fourier_L2_residual_squared": 0.08723359266514619,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 3.5979139515252e-05,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 4096,
+          "finite_fourier_L2_residual_squared": 0.087260580492178,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 8.99131248344176e-06,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 16384,
+          "finite_fourier_L2_residual_squared": 0.08726732419297711,
+          "Gaussian_L2_residual_squared": 0.08726957180466144,
+          "absolute_limit_difference": 2.2476116843250793e-06,
+          "kernel": 1.1302806712962963
+        }
+      ]
+    },
+    {
+      "unitary": "rotation_x_0.41",
+      "correlations": [
+        [
+          0.2,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.13644424145752274,
+          -0.14622916594537919
+        ],
+        [
+          0.0,
+          0.14622916594537919,
+          0.13644424145752274
+        ]
+      ],
+      "Gaussian_projection_coefficients": [
+        1.0721510709388484,
+        -0.10424629821193943,
+        -0.1042462982119394,
+        -0.09050353739088564,
+        -0.09050353739088562,
+        -0.09259412270125332,
+        -0.0925941227012533,
+        0.04174212858688191,
+        0.04174212858688187,
+        0.11693020174286069,
+        0.11693020174286062,
+        0.038701175695809845,
+        0.03870117569580983,
+        -0.008093020239939826,
+        -0.008093020239939788
+      ],
+      "cases": [
+        {
+          "N": 1,
+          "finite_fourier_L2_residual_squared": 0.030454542190184286,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.05522284543769196,
+          "kernel": 1.12
+        },
+        {
+          "N": 2,
+          "finite_fourier_L2_residual_squared": 0.06177052334168853,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.023906864286187712,
+          "kernel": 1.1296
+        },
+        {
+          "N": 3,
+          "finite_fourier_L2_residual_squared": 0.07169364952594193,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.013983738101934318,
+          "kernel": 1.1302400000000001
+        },
+        {
+          "N": 4,
+          "finite_fourier_L2_residual_squared": 0.07570426229360838,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.009973125334267863,
+          "kernel": 1.1302784000000001
+        },
+        {
+          "N": 8,
+          "finite_fourier_L2_residual_squared": 0.0810172107272058,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.004660176900670443,
+          "kernel": 1.130280671281152
+        },
+        {
+          "N": 16,
+          "finite_fourier_L2_residual_squared": 0.08342116884075201,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.002256218787124231,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 64,
+          "finite_fourier_L2_residual_squared": 0.08512647131810769,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.0005509163097685565,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 256,
+          "finite_fourier_L2_residual_squared": 0.08554045730699666,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 0.00013693032087958024,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 1024,
+          "finite_fourier_L2_residual_squared": 0.08564320463066544,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 3.418299721080764e-05,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 4096,
+          "finite_fourier_L2_residual_squared": 0.08566884497216143,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 8.54265571481605e-06,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 16384,
+          "finite_fourier_L2_residual_squared": 0.08567525215719374,
+          "Gaussian_L2_residual_squared": 0.08567738762787624,
+          "absolute_limit_difference": 2.13547068250719e-06,
+          "kernel": 1.1302806712962963
+        }
+      ]
+    },
+    {
+      "unitary": "rotation_z_0.63",
+      "correlations": [
+        [
+          0.06116338167565787,
+          -0.19041806831810315,
+          0.0
+        ],
+        [
+          0.19041806831810315,
+          0.06116338167565787,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.2
+        ]
+      ],
+      "Gaussian_projection_coefficients": [
+        1.0238666166373602,
+        -0.060691361859288154,
+        -0.060691361859288154,
+        -0.06352266204276803,
+        -0.06352266204276803,
+        -0.10199575659022726,
+        -0.10199575659022724,
+        0.12295716324773863,
+        0.12295716324773864,
+        0.027867836555708753,
+        0.027867836555708753,
+        0.03198622887184517,
+        0.03198622887184517,
+        0.010960456660923316,
+        0.010960456660923304
+      ],
+      "cases": [
+        {
+          "N": 1,
+          "finite_fourier_L2_residual_squared": 0.04484192630307593,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.04689894744831613,
+          "kernel": 1.12
+        },
+        {
+          "N": 2,
+          "finite_fourier_L2_residual_squared": 0.07166053889600565,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.020080334855386406,
+          "kernel": 1.1296
+        },
+        {
+          "N": 3,
+          "finite_fourier_L2_residual_squared": 0.07993609987583006,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.011804773875562002,
+          "kernel": 1.1302400000000001
+        },
+        {
+          "N": 4,
+          "finite_fourier_L2_residual_squared": 0.08329240283302997,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.008448470918362094,
+          "kernel": 1.1302784000000001
+        },
+        {
+          "N": 8,
+          "finite_fourier_L2_residual_squared": 0.08777314467709663,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.003967729074295434,
+          "kernel": 1.130280671281152
+        },
+        {
+          "N": 16,
+          "finite_fourier_L2_residual_squared": 0.08981562110220809,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.0019252526491839728,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 64,
+          "finite_fourier_L2_residual_squared": 0.0912700417291401,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.00047083202225195464,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 256,
+          "finite_fourier_L2_residual_squared": 0.09162380470275044,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 0.00011706904864161594,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 1024,
+          "finite_fourier_L2_residual_squared": 0.09171164617896577,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 2.922757242629359e-05,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 4096,
+          "finite_fourier_L2_residual_squared": 0.09173356933520438,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 7.304416187681184e-06,
+          "kernel": 1.1302806712962963
+        },
+        {
+          "N": 16384,
+          "finite_fourier_L2_residual_squared": 0.09173904780161735,
+          "Gaussian_L2_residual_squared": 0.09174087375139206,
+          "absolute_limit_difference": 1.825949774714175e-06,
+          "kernel": 1.1302806712962963
+        }
+      ]
+    }
+  ],
+  "local_commutator_diagnostic": [
+    {
+      "N": 1,
+      "max_exact_tensor_formula_normalized_HS_commutator": 1.4161468365471424
+    },
+    {
+      "N": 2,
+      "max_exact_tensor_formula_normalized_HS_commutator": 1.0821659276057656
+    },
+    {
+      "N": 3,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.9418705157054855
+    },
+    {
+      "N": 4,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.8488254674624994
+    },
+    {
+      "N": 8,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.6451103820161997
+    },
+    {
+      "N": 16,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.4761948261501605
+    },
+    {
+      "N": 64,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.24681949110684728
+    },
+    {
+      "N": 256,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.1245954744032294
+    },
+    {
+      "N": 1024,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.06244921192995135
+    },
+    {
+      "N": 4096,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.031243644516457298
+    },
+    {
+      "N": 16384,
+      "max_exact_tensor_formula_normalized_HS_commutator": 0.01562420553250678
+    }
+  ],
+  "scope": "Deterministic d=2 v=1/2 checks. Direct anonymous density matrices for N=1,2,3 and three noncommuting unitary hypotheses verify Fourier expectations, Gram normalization, collision self-kernel and full L2 residual identity. Fixed-dictionary residuals are evaluated through N=16384 with exact finite kernel/characteristic/Gram formulas and compared with their Gaussian limits.",
+  "limitations": "No commuting approximants or Glebsky receiver are numerically constructed. These finite checks support identities and normalization only. They do not prove operational sufficiency, all-parameter uniformity, entropy continuity, asymptotic rates, Fisher-information convergence, efficient measurement implementation, or novelty."
+}

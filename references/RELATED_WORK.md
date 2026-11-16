@@ -22,6 +22,30 @@ The present operation erases the **source correspondence**, not merely a readout
 
 The Werner-state terminology and invariant-state framework originate with **Reinhard F. Werner, _Quantum states with Einstein-Podolsky-Rosen correlations admitting a hidden-variable model_, Physical Review A 40, 4277–4281 (1989)**, [DOI](https://doi.org/10.1103/PhysRevA.40.4277).
 
+## Growing anonymous batches and statistical sufficiency
+
+The [separate-list theorem](../science/separate-list-readout.md) adds an operational conclusion to the exact anonymous-source kernel. At fixed dimensions, uniformly over compact physical uniform-marginal correlation families with a strict contraction bound, the complete anonymous experiment is asymptotically recoverable from separate collective measurements of the two lists. Its limiting experiment is a centered Gaussian law with target-dependent cross-covariance. This is the authoritative home of that shared result; the paired-source and precision context remain in Quantum Learning Readout.
+
+**Lev Glebsky, _Almost commuting matrices with respect to normalized Hilbert–Schmidt norm_, arXiv:1002.3082v1 (2010), Theorem 2.** [Primary text](https://arxiv.org/html/1002.3082v1).
+
+For any fixed finite number of unitary matrices, pairwise small commutators in normalized Hilbert–Schmidt norm imply nearby exactly commuting unitary matrices, with a modulus independent of matrix dimension. This simultaneous approximation theorem is inherited. The norm is normalized Hilbert–Schmidt, not Schatten one. It applies here only after the entire likelihood has been approximated by a finite family of bounded local Fourier observables. A diagonal schedule, rather than an arbitrary growing-family application, gives the receiver sequence.
+
+**Greg Kuperberg, _A tracial quantum central limit theorem_, Transactions of the American Mathematical Society 357 (2005), 459–471.** [arXiv:math-ph/0202035](https://arxiv.org/abs/math-ph/0202035).
+
+Theorem 1 identifies classical Gaussian polynomial limits for centered independent sums in a tracial noncommutative probability space. The classical fluctuation mechanism at the maximally mixed reference is therefore established. The source-specific proof here uses bounded Fourier expansions directly. Weak moment or spectral-distribution convergence alone does not supply one separate-side receiver or exclude a remaining quantum decision advantage.
+
+**Mădălin Guţă and Anna Jenčová, _Local asymptotic normality in quantum statistics_, arXiv:quant-ph/0606213v2 (2007), Section 3.4.** [Primary text](https://arxiv.org/abs/quant-ph/0606213v2).
+
+Two-sided comparison by physical channels is the established statistical notion of quantum experiment equivalence. It is stronger than matching covariance or a Fisher-information matrix. The general comparison language is inherited; the theorem here constructs the needed separate-list measurements, recovery channel and classical coupling kernels for this anonymous model.
+
+**Koichi Yamagata, Akio Fujiwara and Richard D. Gill, _Quantum local asymptotic normality based on a new quantum likelihood ratio_, Annals of Statistics 41 (2013), 2197–2217.** [arXiv:1210.3749v3](https://arxiv.org/html/1210.3749v3).
+
+The iid local-asymptotic-normality framework gives Gaussian shift experiments in shrinking neighborhoods and can include a maximally mixed reference. The present family is globally indexed by a surviving covariance orientation after anonymization. The paired-copy precision argument in Readout and a routine invocation of iid local asymptotic normality therefore do not by themselves yield the separate-list theorem.
+
+The added inference is full-likelihood saturation: the Gaussian covariance likelihood has exactly the limiting squared $`L^2`$ norm supplied by the operator collision kernel. Its Fourier functions consequently approximate the complete likelihood. Glebsky's theorem then produces local commuting measurements, and the scalar conditional expectation onto their abelian algebra gives genuine classical readout and state recovery. A reference coupling proves two-way Gaussian equivalence. No new general central limit theorem, almost-commuting theorem, or efficient receiver is claimed.
+
+**Dénes Petz, _Quantum Information Theory and Quantum Statistics_ (2008).** [Published edition](https://doi.org/10.1007/978-3-540-74636-2). Sections 9.1–9.2 and 9.5 provide the common educational foundation for coarse-graining, conditional expectations and sufficiency; Sections 10.1–10.3 connect estimation and Fisher information. The project-specific Fourier-saturation theorem remains separately proved, and the book is not cited as already establishing it.
+
 ## Lost pairing is an established physical question
 
 **J. Eisert, T. Felbinger, P. Papadopoulos, M. B. Plenio and M. Wilkens, _Classical Information and Distillable Entanglement_, Physical Review Letters 84, 1611–1614 (2000).** [DOI](https://doi.org/10.1103/PhysRevLett.84.1611) · [arXiv:quant-ph/9907021](https://arxiv.org/abs/quant-ph/9907021).

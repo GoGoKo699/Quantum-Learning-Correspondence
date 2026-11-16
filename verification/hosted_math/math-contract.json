@@ -1,0 +1,408 @@
+{
+  "schema_version": 1,
+  "expressions": [
+    {
+      "path": "README.md",
+      "index": 2,
+      "source_sha256": "713895786319e45faac32d272b626856cdf01f5a92aa7f5fe89530d9536f65a2",
+      "required_text": [
+        "ΣT",
+        "IT",
+        "TTI"
+      ],
+      "expected_text": "ΣT=(ITTTI)."
+    },
+    {
+      "path": "README.md",
+      "index": 5,
+      "source_sha256": "a50a31fa21a6f19388f5c2275f48cf9d7479e7098c4c0d6a3d6561ca1efada4d",
+      "required_text": [
+        "Cd",
+        "(d+1)2",
+        "d2−1",
+        "<e"
+      ],
+      "expected_text": "Cd=(1−1(d+1)2)−(d2−1)<e."
+    },
+    {
+      "path": "README.md",
+      "index": 6,
+      "source_sha256": "5f78635303d83e421f0b45c56c0e93ef4c6103614f9c837d6d97fec778194896",
+      "required_text": [
+        "O(n+log(1/δ))"
+      ],
+      "expected_text": "O(n+log(1/δ))"
+    },
+    {
+      "path": "README.md",
+      "index": 9,
+      "source_sha256": "7cf0b2eda7a3d267bac9bd440b8eb524b7bf70436baf601bbbde03d89a0ea5d2",
+      "required_text": [
+        "Cd/d",
+        "<",
+        "2−n"
+      ],
+      "expected_text": "Cd/d<e2−n"
+    },
+    {
+      "path": "README.md",
+      "index": 10,
+      "source_sha256": "87a80cece8f190aedf021a231b05b0958c7416367f6ed490aa88ab4531ea5183",
+      "required_text": [
+        "Cd+1",
+        "d+1"
+      ],
+      "expected_text": "(Cd+1)/(d+1)"
+    },
+    {
+      "path": "learning/PETZ_BRIDGE.md",
+      "index": 1,
+      "source_sha256": "0a94721685b9aeff0dec0e0825b4aacd388e5d86dbef19519b4d647b6c07867c",
+      "required_text": [
+        "Tr",
+        "ρT",
+        "Tab",
+        "δac",
+        "δbe"
+      ]
+    },
+    {
+      "path": "learning/PETZ_BRIDGE.md",
+      "index": 3,
+      "source_sha256": "ba0eb3639fd1dc748fa4d706638a0660a05e0c81e054672b431b2bf6dc45a540",
+      "required_text": [
+        "Tr",
+        "τN(X)",
+        "Tr(X)",
+        "DN"
+      ]
+    },
+    {
+      "path": "learning/PETZ_BRIDGE.md",
+      "index": 14,
+      "source_sha256": "0ffb5b411ae2e13d0a32e3e41eac21d3aa22e9129aaa69bb37321c9bd612e220",
+      "required_text": [
+        "Tr",
+        "EN(X)",
+        "Pi⊗Qj",
+        "risj"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 76,
+      "source_sha256": "55a7b81feabfbb5a0d05323ece034cf4b2bac8583e8548e0d869186f3a2012a3",
+      "required_text": [
+        "diag",
+        "1,−1,−1"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 84,
+      "source_sha256": "f903a8270c9e04264cfb276949d54e0eae648be56247e8eb470aa16c747eb63c",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 86,
+      "source_sha256": "bce3433f9f7906f80ab16052ac5d13369ee9c89c46dd9acad9982f03e89e356c",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 94,
+      "source_sha256": "b889f5563d8f19919701c2bcda4669126f5206cfd0f0d4d97f1ac5495ab0be9c",
+      "required_text": [
+        "Tr",
+        "EA(X)",
+        "Tr(PiX)",
+        "P12"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 101,
+      "source_sha256": "7319db91f942e1cb3c0494665172e6f5112f22463ddfe7a833ca0c5a7346745e",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 102,
+      "source_sha256": "24418699281eb0491141a87b677e35a91133f1a09bf5b4043625be308c82504d",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/resources.md",
+      "index": 21,
+      "source_sha256": "0e4ae88f46626d5f9bdc674324719b92f27a4cdd1c8f0a0645f3e72560c1b929",
+      "required_text": [
+        "Tr",
+        "Pi/TrPi"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 2,
+      "source_sha256": "d751028b777549c11f0d1ce60d419f17024c514efb12f116c4be97ba8a7cac82",
+      "required_text": [
+        "tr",
+        "Tr",
+        "trA",
+        "trB",
+        "δac",
+        "δbe"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 12,
+      "source_sha256": "c271b7705a927313a1a8416f0ad23f572e3115601646c1a4376f78be22c68fdd",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 14,
+      "source_sha256": "b626d3c45f93dbc2e77aca2369516907c218e988637af2870728061eaebe7eb2",
+      "required_text": [
+        "PT",
+        "ΣT",
+        "IpA",
+        "IpB"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 19,
+      "source_sha256": "44c0b1fe46db1f7d83bf762797f75848d4c2468317b7f38281d310d567b9a893",
+      "required_text": [
+        "EN",
+        "RNA⊗RNB",
+        "MNA⊗MNB"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 20,
+      "source_sha256": "8ecde3dca119c7d88cbf97c44fafbf9dd820563e848448cf86421dc345159f93",
+      "required_text": [
+        "ΩN(T)",
+        "EN",
+        "sup",
+        "⟶0"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 21,
+      "source_sha256": "dbb094f5675eb3a8952cac631a88e8ec44e6db8f50dce77d393596a155ea6d45",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 22,
+      "source_sha256": "4ddca31693471610116cd3cbdede46587a61468fbb9a35b7027aa087684e37ca",
+      "required_text": [
+        "ΩN(T)",
+        "EN",
+        "≤",
+        "⟶0"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 28,
+      "source_sha256": "ba0eb3639fd1dc748fa4d706638a0660a05e0c81e054672b431b2bf6dc45a540",
+      "required_text": [
+        "Tr",
+        "τN(X)",
+        "Tr(X)",
+        "DN"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 29,
+      "source_sha256": "fbeed08ec261c01280858e96e7ba7c7d49b52b1f468f02ba204e7f48d01d0e7c",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 30,
+      "source_sha256": "feb64b57422e66a6260e49dc24b8c9d2d6ce02fa2cbd2e721d1f6ae281c122e3",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 38,
+      "source_sha256": "9e2c5838b420c7cde207d1e264bf2703c140a9214ca364c47f7c5f911ffe2f19",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 40,
+      "source_sha256": "70a227914f120e9ed24abc89200e7761fd38146357a587eec499d5a77020891c",
+      "required_text": [
+        "det(ΣT)",
+        "det(2I−ΣT)",
+        "det(I−TTT)",
+        "C(T)",
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 55,
+      "source_sha256": "0cee9cb74710d72d983cfef9c605cee1631414a1e3f5003785bf5832a696a1e3",
+      "required_text": [
+        "Tr",
+        "τN",
+        "LN(T)",
+        "WNA(x)⊗WNB(y)",
+        "TrρT"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 57,
+      "source_sha256": "8b5c5f5bfc43e28eb3cd28ba2311c0145ebe3fa7a555e75585a29624ff287553",
+      "required_text": [
+        "Tr",
+        "TrρT",
+        "2xTTy",
+        "2N",
+        "Ox,y"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 61,
+      "source_sha256": "6d5191026816a44a81a64b2136b313c3b64b9a7b6bff1a1b972a9da2e88cabed",
+      "required_text": [
+        "tr",
+        "trA",
+        "WNA(x)",
+        "⟶"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 64,
+      "source_sha256": "cdad88c7bee747090361685736bbb9e29cd28f9831b4ea87e76eb7d320a7ebfe",
+      "required_text": [
+        "LN(T)−qN",
+        "lT−q",
+        "⟶",
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 71,
+      "source_sha256": "6033a25e9bb283fee16ac23c079b4981065093a8cf570dd974bd369424be18f4",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 76,
+      "source_sha256": "ef8b58f525fb35deae1b428ee438a68f06ae7c9126dac1535b7d7e4a36a5f328",
+      "required_text": [
+        "tr",
+        "FNA",
+        "trA",
+        "Hx",
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 77,
+      "source_sha256": "85918d2e58625d200e6afe2ba4a9bbf76520a0859c4d288ef04825c3f3a815f1",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 86,
+      "source_sha256": "763213a1356b106400e2cc448ce40255463fa78038f45b4e3478fc6e40b02593",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 93,
+      "source_sha256": "5c2561c39496341c0281865211e742a965a9a6ce16b6ea2f61d8a989dc566d1d",
+      "required_text": [
+        "Tr",
+        "EN(X)",
+        "Tr[(Pi⊗Qj)X]",
+        "risj"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 99,
+      "source_sha256": "0246a67fee454711abee5fa42c8f982b625e70ab0aee1c103a1f48a7675f5d44",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 101,
+      "source_sha256": "2f76f099527ae8f890f99bc950157118c90d7f07466f0074f3ed20373d96c662",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 108,
+      "source_sha256": "24418699281eb0491141a87b677e35a91133f1a09bf5b4043625be308c82504d",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 122,
+      "source_sha256": "76267ea48c5dd137987535efd19bb34e94b8d9796dee5fff7ea18fa469cf6e57",
+      "required_text": [
+        "Tr",
+        "hN,T(i,j)",
+        "Tr[(Pi⊗Qj)LN(T)]",
+        "risj"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 125,
+      "source_sha256": "7cb45ba5d6d8cbbee90fd168c451feb0e7a0a8192d21ac4e29c40c6bb4bdeffc",
+      "required_text": [
+        "‖"
+      ]
+    }
+  ]
+}
