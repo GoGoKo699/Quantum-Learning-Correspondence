@@ -125,9 +125,9 @@ By contrast, the paired learner at $`v=1`$ can identify $`w`$ with failure at mo
 Fix $`d`$ and a known $`0\lt v\le1`$. There are target-independent collective measurements $`M_N^A,M_N^B`$ of the input and output lists separately, and local reconstruction channels $`R_N^A,R_N^B`$, such that
 
 ```math
-\sup_{U\in U(d)}\left\|\Omega_{N,v}(U)-
+\sup_{U\in U(d)}\left\Vert \Omega_{N,v}(U)-
 (R_N^A\otimes R_N^B)(M_N^A\otimes M_N^B)
-\bigl(\Omega_{N,v}(U)\bigr)\right\|_1\longrightarrow0.
+\bigl(\Omega_{N,v}(U)\bigr)\right\Vert _1\longrightarrow0.
 ```
 
 The reconstructed state is prepared from ordinary classical records. Consequently every bounded decision score, including the single-use coherent prediction score, is retained up to an error tending to zero. Within-list collective control remains allowed.

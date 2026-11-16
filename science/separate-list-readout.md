@@ -28,7 +28,7 @@ where $`T`$ is real. Positivity of $`\rho_T`$ is an assumption; an arbitrary rea
 Fix a compact family $`\mathcal K`$ of physical matrices and a constant $`r\lt1`$ such that
 
 ```math
-\sup_{T\in\mathcal K}\|T\|_{\mathrm{op}}\le r.
+\sup_{T\in\mathcal K}\Vert T\Vert _{\mathrm{op}}\le r.
 ```
 
 Local dimensions and this family remain fixed while $`N\to\infty`$. Define the classical experiment
@@ -54,16 +54,16 @@ Then
 \begin{aligned}
 \varepsilon_N&:=(d_Ad_B)^{N/2}
 \sup_{T\in\mathcal K}
-\left\|\Omega_N(T)-E_N\bigl(\Omega_N(T)\bigr)\right\|_2\\
+\left\Vert \Omega_N(T)-E_N\bigl(\Omega_N(T)\bigr)\right\Vert _2\\
 &\longrightarrow0.
 \end{aligned}
 ```
 
-Here $`\|\cdot\|_2`$ is the ordinary, unnormalized Hilbert–Schmidt norm. In particular,
+Here $`\Vert \cdot\Vert _2`$ is the ordinary, unnormalized Hilbert–Schmidt norm. In particular,
 
 ```math
 \sup_{T\in\mathcal K}
-\left\|\Omega_N(T)-E_N\bigl(\Omega_N(T)\bigr)\right\|_1
+\left\Vert \Omega_N(T)-E_N\bigl(\Omega_N(T)\bigr)\right\Vert _1
 \le\varepsilon_N\longrightarrow0.
 ```
 
@@ -77,13 +77,13 @@ Set $`D_N=(d_Ad_B)^N`$, let $`\tau_N(X)=\mathrm{Tr}(X)/D_N`$, and define
 
 ```math
 L_N(T)=D_N\Omega_N(T),\qquad
-\|X\|_{2,\tau_N}^2=\tau_N(X^\dagger X).
+\Vert X\Vert _{2,\tau_N}^2=\tau_N(X^\dagger X).
 ```
 
 The [exact correlation kernel](correlation-kernel.md) gives
 
 ```math
-\|L_N(T)\|_{2,\tau_N}^2
+\Vert L_N(T)\Vert _{2,\tau_N}^2
 =\sum_{k=0}^N h_k(TT^{\mathsf T})
 \longrightarrow C(T):=\det(I-TT^{\mathsf T})^{-1},
 ```
@@ -111,10 +111,10 @@ Let $`\gamma=\mathcal N(0,I_{p_A+p_B})`$ and write $`\ell_T=dP_T/d\gamma`$. Its 
 (\Sigma_T^{-1}-I)z\right].
 ```
 
-Because $`\|T\|_{\mathrm{op}}\lt1`$, the eigenvalues of $`\Sigma_T`$ lie below two. Gaussian integration therefore gives
+Because $`\Vert T\Vert _{\mathrm{op}}\lt1`$, the eigenvalues of $`\Sigma_T`$ lie below two. Gaussian integration therefore gives
 
 ```math
-\|\ell_T\|_{L^2(\gamma)}^2
+\Vert \ell_T\Vert _{L^2(\gamma)}^2
 =\frac1{\sqrt{\det(\Sigma_T)\det(2I-\Sigma_T)}}
 =\det(I-TT^{\mathsf T})^{-1}=C(T).
 ```
@@ -197,8 +197,8 @@ W_N^A(x_\ell)\otimes W_N^B(y_\ell).
 Expanding the squared norm and using the preceding three limits proves
 
 ```math
-\|L_N(T)-q_N\|_{2,\tau_N}^2
-\longrightarrow\|\ell_T-q\|_{L^2(\gamma)}^2,
+\Vert L_N(T)-q_N\Vert _{2,\tau_N}^2
+\longrightarrow\Vert \ell_T-q\Vert _{L^2(\gamma)}^2,
 ```
 
 uniformly in $`T\in\mathcal K`$. Thus the argument uses the entire likelihood norm, not only convergence of characteristic functions.
@@ -207,7 +207,7 @@ Finite Fourier sums are dense in $`L^2(\gamma)`$. To verify density, a function 
 
 ```math
 \sup_{T\in\mathcal K}\min_{1\le j\le J}
-\|\ell_T-q_j\|_{L^2(\gamma)}\lt\eta.
+\Vert \ell_T-q_j\Vert _{L^2(\gamma)}\lt\eta.
 ```
 
 Use the union of their finitely many local frequencies. The assignment of a nearby $`q_j`$ to each $`T`$ is only a proof device; the receiver will use that whole frequency set and will not need the assignment or the target.
@@ -230,15 +230,15 @@ Then
 The one-register commutator is traceless, so cross terms vanish under the product normalized trace and
 
 ```math
-\bigl\|[F_N^A(x),F_N^A(x')]\bigr\|_{2,\tau_{A,N}}
-=\frac{\|[H_x,H_{x'}]\|_{2,\mathrm{tr}_A}}{\sqrt N}.
+\bigl\Vert [F_N^A(x),F_N^A(x')]\bigr\Vert _{2,\tau_{A,N}}
+=\frac{\Vert [H_x,H_{x'}]\Vert _{2,\mathrm{tr}_A}}{\sqrt N}.
 ```
 
 Duhamel's formula and unitary invariance of this norm give
 
 ```math
-\|[e^{iH},e^{iK}]\|_{2,\tau}
-\le\|[H,K]\|_{2,\tau}
+\Vert [e^{iH},e^{iK}]\Vert _{2,\tau}
+\le\Vert [H,K]\Vert _{2,\tau}
 ```
 
 for Hermitian $`H,K`$. Applying the bound to $`F_N^A(x),F_N^A(x')`$ proves that every required commutator of $`W_N^A`$ tends to zero. The same holds on side $`B`$.
@@ -246,9 +246,9 @@ for Hermitian $`H,K`$. Applying the bound to $`F_N^A(x),F_N^A(x')`$ proves that 
 Glebsky's [Theorem 2](https://arxiv.org/html/1002.3082v1), for any fixed finite number of unitary matrices, supplies pairwise commuting unitary approximants whenever all pairwise commutators tend to zero in normalized Hilbert–Schmidt norm. Its approximation modulus is independent of matrix dimension. Apply this inherited theorem separately on $`A^N`$ and $`B^N`$. Obtain exactly commuting local families $`V_N^A(x)`$ and $`V_N^B(y)`$ satisfying
 
 ```math
-\max_x\|W_N^A(x)-V_N^A(x)\|_{2,\tau_{A,N}}\to0,
+\max_x\Vert W_N^A(x)-V_N^A(x)\Vert _{2,\tau_{A,N}}\to0,
 \qquad
-\max_y\|W_N^B(y)-V_N^B(y)\|_{2,\tau_{B,N}}\to0.
+\max_y\Vert W_N^B(y)-V_N^B(y)\Vert _{2,\tau_{B,N}}\to0.
 ```
 
 There is no operator-norm almost-commutation claim. Nor is Glebsky's theorem applied to an arbitrarily growing frequency family: each approximation level uses a fixed finite set.
@@ -272,14 +272,14 @@ It is a product, unital, trace-preserving completely positive map and the $`L^2(
 Replacing the finitely many $`W`$'s in each $`q_{j,N}`$ by $`V`$'s gives $`\widetilde q_{j,N}`$ in that abelian algebra with
 
 ```math
-\max_j\|q_{j,N}-\widetilde q_{j,N}\|_{2,\tau_N}\to0.
+\max_j\Vert q_{j,N}-\widetilde q_{j,N}\Vert _{2,\tau_N}\to0.
 ```
 
 Orthogonal projection minimizes $`L^2`$ distance. The uniform Fourier approximation therefore implies
 
 ```math
 \limsup_{N\to\infty}\sup_{T\in\mathcal K}
-\|L_N(T)-E_NL_N(T)\|_{2,\tau_N}\le\eta.
+\Vert L_N(T)-E_NL_N(T)\Vert _{2,\tau_N}\le\eta.
 ```
 
 For a sequence $`\eta_k\downarrow0`$, choose successively larger thresholds $`N_k`$ such that the level-$`k`$ construction has all its required errors small for every $`N\ge N_k`$. For $`N_k\le N\lt N_{k+1}`$, use that construction. This diagonal sequence is a single target-independent receiver, and its uniform normalized $`L^2`$ error tends to zero.
@@ -287,9 +287,9 @@ For a sequence $`\eta_k\downarrow0`$, choose successively larger thresholds $`N_
 Finally,
 
 ```math
-\|\Omega_N(T)-E_N\Omega_N(T)\|_1
-=\|L_N(T)-E_NL_N(T)\|_{1,\tau_N}
-\le\|L_N(T)-E_NL_N(T)\|_{2,\tau_N}.
+\Vert \Omega_N(T)-E_N\Omega_N(T)\Vert _1
+=\Vert L_N(T)-E_NL_N(T)\Vert _{1,\tau_N}
+\le\Vert L_N(T)-E_NL_N(T)\Vert _{2,\tau_N}.
 ```
 
 The same last quantity equals $`\sqrt{D_N}`$ times the ordinary Hilbert–Schmidt error for density operators. This proves the first part of the theorem.
@@ -317,10 +317,10 @@ It is nonnegative, integrates to one, and represents $`E_NL_N(T)`$. Each finite 
 
 ```math
 \limsup_N\sup_{T\in\mathcal K}
-\|h_{N,T}-q_{j(T)}\circ c_N\|_{L^1(\mu_N)}\le\eta,
+\Vert h_{N,T}-q_{j(T)}\circ c_N\Vert _{L^1(\mu_N)}\le\eta,
 \qquad
 \sup_{T\in\mathcal K}
-\|\ell_T-q_{j(T)}\circ\phi\|_{L^1(\gamma)}\le\eta.
+\Vert \ell_T-q_{j(T)}\circ\phi\Vert _{L^1(\gamma)}\le\eta.
 ```
 
 Here each $`q_j`$ is understood as its continuous function of the Fourier-coordinate vector. The first bound follows by applying the $`L^2`$-contractive conditional expectation to the likelihood approximation, then using $`L^1\le L^2`$.

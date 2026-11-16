@@ -99,6 +99,22 @@
     },
     {
       "path": "learning/WORKED_EXAMPLES.md",
+      "index": 84,
+      "source_sha256": "f903a8270c9e04264cfb276949d54e0eae648be56247e8eb470aa16c747eb63c",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 86,
+      "source_sha256": "bce3433f9f7906f80ab16052ac5d13369ee9c89c46dd9acad9982f03e89e356c",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
       "index": 94,
       "source_sha256": "b889f5563d8f19919701c2bcda4669126f5206cfd0f0d4d97f1ac5495ab0be9c",
       "required_text": [
@@ -106,6 +122,22 @@
         "EA(X)",
         "Tr(PiX)",
         "P12"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 101,
+      "source_sha256": "7319db91f942e1cb3c0494665172e6f5112f22463ddfe7a833ca0c5a7346745e",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "learning/WORKED_EXAMPLES.md",
+      "index": 102,
+      "source_sha256": "24418699281eb0491141a87b677e35a91133f1a09bf5b4043625be308c82504d",
+      "required_text": [
+        "‖"
       ]
     },
     {
@@ -132,6 +164,14 @@
     },
     {
       "path": "science/separate-list-readout.md",
+      "index": 12,
+      "source_sha256": "c271b7705a927313a1a8416f0ad23f572e3115601646c1a4376f78be22c68fdd",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
       "index": 14,
       "source_sha256": "b626d3c45f93dbc2e77aca2369516907c218e988637af2870728061eaebe7eb2",
       "required_text": [
@@ -154,7 +194,7 @@
     {
       "path": "science/separate-list-readout.md",
       "index": 20,
-      "source_sha256": "21ee6de0cfd6535249c6424e7723aa72d68db7094064b096930b434519afd114",
+      "source_sha256": "8ecde3dca119c7d88cbf97c44fafbf9dd820563e848448cf86421dc345159f93",
       "required_text": [
         "ΩN(T)",
         "EN",
@@ -164,8 +204,16 @@
     },
     {
       "path": "science/separate-list-readout.md",
+      "index": 21,
+      "source_sha256": "dbb094f5675eb3a8952cac631a88e8ec44e6db8f50dce77d393596a155ea6d45",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
       "index": 22,
-      "source_sha256": "30115564eb64b3fcf368fdd569eebfe943b40ba29d4608cda2725d69d8030928",
+      "source_sha256": "4ddca31693471610116cd3cbdede46587a61468fbb9a35b7027aa087684e37ca",
       "required_text": [
         "ΩN(T)",
         "EN",
@@ -186,13 +234,38 @@
     },
     {
       "path": "science/separate-list-readout.md",
+      "index": 29,
+      "source_sha256": "fbeed08ec261c01280858e96e7ba7c7d49b52b1f468f02ba204e7f48d01d0e7c",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 30,
+      "source_sha256": "feb64b57422e66a6260e49dc24b8c9d2d6ce02fa2cbd2e721d1f6ae281c122e3",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 38,
+      "source_sha256": "9e2c5838b420c7cde207d1e264bf2703c140a9214ca364c47f7c5f911ffe2f19",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
       "index": 40,
-      "source_sha256": "a3a2bb5372916cbed0ba093c2b122a1955de9e72e1f497bd4131fea380dc9727",
+      "source_sha256": "70a227914f120e9ed24abc89200e7761fd38146357a587eec499d5a77020891c",
       "required_text": [
         "det(ΣT)",
         "det(2I−ΣT)",
         "det(I−TTT)",
-        "C(T)"
+        "C(T)",
+        "‖"
       ]
     },
     {
@@ -233,22 +306,48 @@
     {
       "path": "science/separate-list-readout.md",
       "index": 64,
-      "source_sha256": "245813da819670847143e12d2ea0f3ebc268faf5e79379f7fb819de4edfaf315",
+      "source_sha256": "cdad88c7bee747090361685736bbb9e29cd28f9831b4ea87e76eb7d320a7ebfe",
       "required_text": [
         "LN(T)−qN",
         "lT−q",
-        "⟶"
+        "⟶",
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 71,
+      "source_sha256": "6033a25e9bb283fee16ac23c079b4981065093a8cf570dd974bd369424be18f4",
+      "required_text": [
+        "‖"
       ]
     },
     {
       "path": "science/separate-list-readout.md",
       "index": 76,
-      "source_sha256": "6a139d9101242801b524af4de0df419d7eed2e42e122021c231a75526f78b590",
+      "source_sha256": "ef8b58f525fb35deae1b428ee438a68f06ae7c9126dac1535b7d7e4a36a5f328",
       "required_text": [
         "tr",
         "FNA",
         "trA",
-        "Hx"
+        "Hx",
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 77,
+      "source_sha256": "85918d2e58625d200e6afe2ba4a9bbf76520a0859c4d288ef04825c3f3a815f1",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 86,
+      "source_sha256": "763213a1356b106400e2cc448ce40255463fa78038f45b4e3478fc6e40b02593",
+      "required_text": [
+        "‖"
       ]
     },
     {
@@ -264,6 +363,30 @@
     },
     {
       "path": "science/separate-list-readout.md",
+      "index": 99,
+      "source_sha256": "0246a67fee454711abee5fa42c8f982b625e70ab0aee1c103a1f48a7675f5d44",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 101,
+      "source_sha256": "2f76f099527ae8f890f99bc950157118c90d7f07466f0074f3ed20373d96c662",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 108,
+      "source_sha256": "24418699281eb0491141a87b677e35a91133f1a09bf5b4043625be308c82504d",
+      "required_text": [
+        "‖"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
       "index": 122,
       "source_sha256": "76267ea48c5dd137987535efd19bb34e94b8d9796dee5fff7ea18fa469cf6e57",
       "required_text": [
@@ -271,6 +394,14 @@
         "hN,T(i,j)",
         "Tr[(Pi⊗Qj)LN(T)]",
         "risj"
+      ]
+    },
+    {
+      "path": "science/separate-list-readout.md",
+      "index": 125,
+      "source_sha256": "7cb45ba5d6d8cbbee90fd168c451feb0e7a0a8192d21ac4e29c40c6bb4bdeffc",
+      "required_text": [
+        "‖"
       ]
     }
   ]

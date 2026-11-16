@@ -116,7 +116,7 @@ The six covariance eigenvalues are $`1+t`$ and $`1-t`$, each three times. Their 
 
 ```math
 \det\Sigma_I=(1-t^2)^3,\qquad
-\|\ell_I\|_{L^2(\gamma)}^2
+\Vert \ell_I\Vert _{L^2(\gamma)}^2
 =(1-t^2)^{-3}=\frac{729}{512}.
 ```
 
@@ -125,9 +125,9 @@ This is exactly the limiting normalized quantum collision purity calculated abov
 To see the normalization in a minimal Fourier approximation, take just the constant function $`q=1`$, whose quantum counterpart is the identity operator. Both likelihoods integrate to one, so
 
 ```math
-\|L_N-I\|_{2,\tau_N}^2=C_N-1,
+\Vert L_N-I\Vert _{2,\tau_N}^2=C_N-1,
 \qquad
-\|\ell_I-1\|_{L^2(\gamma)}^2
+\Vert \ell_I-1\Vert _{L^2(\gamma)}^2
 =\frac{729}{512}-1=\frac{217}{512}.
 ```
 
@@ -164,15 +164,15 @@ Its implementation is explicit: measure $`\{P_1,P_2\}`$, retain the classical la
 This example by itself does not say that the chosen blocks suffice for the anonymous source. The theorem supplies appropriate target-independent blocks and proves
 
 ```math
-\sup_T\|L_N(T)-E_NL_N(T)\|_{2,\tau_N}\longrightarrow0.
+\sup_T\Vert L_N(T)-E_NL_N(T)\Vert _{2,\tau_N}\longrightarrow0.
 ```
 
 The conversion to physical state error has no extra dimension penalty:
 
 ```math
-\|\Omega_N(T)-E_N\Omega_N(T)\|_1
-=\|L_N(T)-E_NL_N(T)\|_{1,\tau_N}
-\le\|L_N(T)-E_NL_N(T)\|_{2,\tau_N}.
+\Vert \Omega_N(T)-E_N\Omega_N(T)\Vert _1
+=\Vert L_N(T)-E_NL_N(T)\Vert _{1,\tau_N}
+\le\Vert L_N(T)-E_NL_N(T)\Vert _{2,\tau_N}.
 ```
 
 Consequently the classical records can simulate every joint bounded decision rule with vanishing error. The reverse map is physical and independent of the target; it never reconstructs a private preparation seed or the missing matching.

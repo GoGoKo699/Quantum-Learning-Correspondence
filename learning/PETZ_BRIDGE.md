@@ -23,7 +23,7 @@ A supplied specimen is a quantum register; its hidden preparation label and clas
 \frac{\mathrm{Tr}(B_bB_e)}{d_B}=\delta_{be}.
 ```
 
-The complete batch dimension is $`D_N=(d_A d_B)^N`$. Its normalized trace is $`\tau_N(X)=\mathrm{Tr}(X)/D_N`$, and its likelihood relative to the maximally mixed reference is $`L_N(T)=D_N\Omega_N(T)`$. The norm $`\|X\|_{2,\tau_N}=\sqrt{\tau_N(X^\dagger X)}`$ is normalized Hilbert–Schmidt. It differs both from ordinary Hilbert–Schmidt norm and from trace norm. This distinction matters when applying Glebsky's theorem and converting likelihood error to density-operator trace error.
+The complete batch dimension is $`D_N=(d_A d_B)^N`$. Its normalized trace is $`\tau_N(X)=\mathrm{Tr}(X)/D_N`$, and its likelihood relative to the maximally mixed reference is $`L_N(T)=D_N\Omega_N(T)`$. The norm $`\Vert X\Vert _{2,\tau_N}=\sqrt{\tau_N(X^\dagger X)}`$ is normalized Hilbert–Schmidt. It differs both from ordinary Hilbert–Schmidt norm and from trace norm. This distinction matters when applying Glebsky's theorem and converting likelihood error to density-operator trace error.
 
 Project entropies use natural logarithms and information is in nats. A value in bits is obtained by dividing by $`\ln2`$. The project scores $`F_e`$ and $`F_{\mathrm{avg}}`$ are overlap fidelities; check any reference's squared or unsquared fidelity convention before substitution. A subscript $`N`$ counts pairs inside one anonymous batch, while a later $`m`$ counts independently tagged batches.
 
@@ -58,7 +58,7 @@ The following steps are established in this project's scientific account, with i
 1. **Compute the full operator kernel.** The [cycle proof](../science/correlation-kernel.md) reduces two hidden matchings to relative-permutation cycles. It yields an exact finite-batch overlap and, under a strict correlation contraction, the limit
 
    ```math
-   \|L_N(T)\|_{2,\tau_N}^2\longrightarrow
+   \Vert L_N(T)\Vert _{2,\tau_N}^2\longrightarrow
    \det(I-TT^{\mathsf T})^{-1}.
    ```
 
@@ -76,7 +76,7 @@ This bridge uses an elementary bounded Fourier proof rather than promoting a gen
 
 ## Sufficiency has a scale and a resource price
 
-The theorem fixes local dimensions and a compact physical family satisfying $`\sup_T\|T\|_{\mathrm{op}}\le r\lt1`$. It constructs one receiver sequence, independent of the target, with maximum reconstruction trace error $`\varepsilon_N\to0`$. Every bounded decision score and the bounded score of a consumable predictor are preserved asymptotically by channel contractivity.
+The theorem fixes local dimensions and a compact physical family satisfying $`\sup_T\Vert T\Vert _{\mathrm{op}}\le r\lt1`$. It constructs one receiver sequence, independent of the target, with maximum reconstruction trace error $`\varepsilon_N\to0`$. Every bounded decision score and the bounded score of a consumable predictor are preserved asymptotically by channel contractivity.
 
 The separate-list measurements retain all specimens in each list coherently until collective readout. They differ from the original pair-by-pair separable measurement class in Readout. The proof gives no efficient circuit, useful convergence rate or dimension-growing guarantee. For $`m`$ tagged batches of size $`b`$, direct product recovery has error at most $`m\varepsilon_b`$. A growing $`m(b)`$ therefore needs $`m(b)\varepsilon_b\to0`$. Neither this bounded-risk statement nor Gaussian covariance convergence proves convergence of Fisher information or of a risk multiplied by a diverging sample budget.
 
