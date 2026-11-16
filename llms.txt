@@ -7,6 +7,7 @@ The question is whether the same native quantum examples remain learnable after 
 - Story: README.md, science/README.md, science/interpretation.md.
 - Exact assumptions and theorem statements: science/model.md.
 - Proof of the finite collision kernel and general uniform-marginal source extension: science/correlation-kernel.md.
+- Full growing-batch separate-list sufficiency theorem and two-way Gaussian covariance equivalence: science/separate-list-readout.md.
 - Entropy, guessing and estimation consequences: science/information-ceiling.md.
 - Efficient paired algorithm and rank bound: science/paired-learning.md.
 - Coherent consumable quantum model and fidelity conversion: science/prediction.md.
@@ -14,8 +15,8 @@ The question is whether the same native quantum examples remain learnable after 
 - Attribution and closest-model differences: references/RELATED_WORK.md and references/references.bib.
 - Reproduction: verification/README.md, verification/check_science.py and verification/results.json.
 - Learning entrypoint and complete examples: learning/README.md and learning/WORKED_EXAMPLES.md.
-- One selected educational source and the source-to-project bridge: learning/WATROUS_BRIDGE.md, anchored in John Watrous, The Theory of Quantum Information (2018).
-- Common 30-milestone understanding map: learning/MILESTONES.md, with 12 background and 18 narrative targets.
+- One selected educational source and the source-to-project bridge: learning/PETZ_BRIDGE.md, anchored in Dénes Petz, Quantum Information Theory and Quantum Statistics, first edition (2008).
+- Common 30-milestone understanding map: learning/MILESTONES.md, spanning background and the complete scientific narrative.
 - Hosted mathematical capture and its limits: verification/hosted_math/README.md.
 
 ## Essential distinctions
@@ -23,3 +24,5 @@ The question is whether the same native quantum examples remain learnable after 
 The anonymous learner receives all specimens and may perform arbitrary collective quantum processing. Pairing is erased before measurement; measuring the true pairs first is a different interface. Preparation seeds, permutation records, their purifications and extra target calls are unavailable. A uniform target prior is explicit in guessing and fidelity bounds and implies a worst-case obstruction. The efficient paired decoder is proved at ideal visibility v=1. Information bounds cover 0<v<=1. Multiple independently tagged batches change the acquisition resource. All processor outcomes count. The scientific results do not establish a classical-data computational speedup or a noisy hardware threshold.
 
 The current proofs live in topic-based science pages. Numerical checks support their tested finite instances rather than certify every dimension. The source, stabilizer designs, classical cycle method and fidelity identity are inherited and attributed in references/RELATED_WORK.md.
+
+The growing-batch theorem fixes local dimensions and a compact physical uniform-marginal correlation family with operator norm uniformly below one. Full collision-norm saturation, bounded Fourier approximation and an inherited finite-family commuting-approximation theorem yield target-independent product collective measurements and product state reconstruction. The limiting experiment is one correlated Gaussian covariance observation. Covariance convergence alone would not prove this receiver. The construction provides no efficient compiler, useful rate, dimension-growing bound or Fisher-information convergence. For m(b) tagged batches direct tensorization needs m(b) times the one-batch reconstruction error to vanish. The authoritative general proof belongs here; Quantum Learning Readout contains its application to the common unitary source and the comparison with its paired precision benchmarks.

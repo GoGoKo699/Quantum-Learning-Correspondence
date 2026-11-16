@@ -1,14 +1,17 @@
-# Learning the correspondence theorem
+# Learning correspondence loss and surviving information
 
-This route develops the quantum-information tools behind the repository's separation: identified input–output specimens permit an efficient Pauli learner, while erasing their correspondence limits every collective learner, even one that retains a quantum program.
+This route follows one experiment from its source to its final statistical description. With identified pairs, Bell measurements efficiently learn an ideal hidden Pauli. One anonymous shuffle instead leaves a finite information ceiling, even for a coherent predictor. As that anonymous batch grows, the surviving experiment becomes a classical Gaussian covariance observation that can be obtained by separate collective measurements of the two lists.
 
-The common reference is John Watrous, [*The Theory of Quantum Information* (2018)](https://cs.uwaterloo.ca/~watrous/TQI/). The [bridge](WATROUS_BRIDGE.md) identifies the exact sections of the author's standard-layout manuscript used here, translates its notation, and separates textbook foundations from this repository's source-specific argument. The book remains on the author's site; this repository contains no copy.
+The common educational anchor is Dénes Petz, [*Quantum Information Theory and Quantum Statistics*, first edition (2008)](https://doi.org/10.1007/978-3-540-74636-2). The [Petz bridge](PETZ_BRIDGE.md) connects coarse-graining, conditional expectation, sufficiency, information and estimation to this project. Its project-specific supplements supply the exact kernel, decoder, Fourier norm-saturation argument and separate-list receiver; those results are not attributed to the textbook.
 
 | Page | Purpose |
 |---|---|
-| [Watrous bridge](WATROUS_BRIDGE.md) | Connect states, measurements, discrimination, entropy and permutation methods to the canonical proofs. |
-| [Worked examples](WORKED_EXAMPLES.md) | Check a single-qubit Bell decoder and the first nontrivial anonymous collision calculation by hand. |
-| [Thirty milestones](MILESTONES.md) | Reconstruct the argument through a fixed sequence of mathematical tasks. |
-| [Scientific account](../science/README.md) | Read the complete model, theorem statements, proofs and resource assumptions. |
+| [Petz bridge](PETZ_BRIDGE.md) | Translate the selected source's statistical concepts into the acquisition model and its proofs. |
+| [Worked examples](WORKED_EXAMPLES.md) | Follow Bell decoding, finite anonymous purity, the Gaussian norm identity and a genuinely classical reconstruction channel. |
+| [Thirty milestones](MILESTONES.md) | Reconstruct the full story through ten background and twenty narrative targets. |
+| [Scientific account](../science/README.md) | Read the canonical assumptions, statements, proofs and resource boundaries. |
+| [Supplementary Watrous bridge](WATROUS_BRIDGE.md) | Consult additional finite-dimensional foundations for states, channels, discrimination and permutation operators. |
 
-The scientific pages are canonical for the claims. The examples specialize those claims; they do not add assumptions or strengthen their scope. In particular, the efficient paired decoder uses visibility one, and the anonymous bound concerns one globally shuffled batch. Logs in the scientific pages are natural, whereas Watrous uses base-two logarithms. The worked examples follow the project's conventions.
+The [separate-list theorem](../science/separate-list-readout.md) is the authoritative proof of the shared result with [Quantum Learning Readout](https://github.com/GoGoKo699/Quantum-Learning-Readout). Readout supplies the paired precision benchmarks and explains the changed readout class. Both projects use Petz, with different learning routes.
+
+Keep three limits distinct throughout. The efficient paired Pauli decoder uses ideal visibility one. The anonymous information bound holds for every size of one globally shuffled batch. Separate-list sufficiency fixes local dimensions and a strict correlation contraction before growing that batch; it supplies no efficiency or convergence-rate guarantee. Independently tagged batches add information, and simultaneous growth in their number needs the stated reconstruction-error control.
