@@ -102,7 +102,7 @@ Continue with the same ideal qubit source. In the Pauli basis $`(X,Y,Z)`$, the c
 \begin{pmatrix}I_3&tI_3\\tI_3&I_3\end{pmatrix}.
 ```
 
-For hidden Pauli $`X`$, conjugation leaves the first coordinate unchanged and reverses the other two, so its cross-correlation matrix is $`t\,\operatorname{diag}(1,-1,-1)`$. Each local three-vector still has the standard Gaussian law for either target. The target is visible only in their relation; for example the expectation of the product of their third coordinates is $`t`$ for identity and $`-t`$ for Pauli $`X`$.
+For hidden Pauli $`X`$, conjugation leaves the first coordinate unchanged and reverses the other two, so its cross-correlation matrix is $`t\,\mathrm{diag}(1,-1,-1)`$. Each local three-vector still has the standard Gaussian law for either target. The target is visible only in their relation; for example the expectation of the product of their third coordinates is $`t`$ for identity and $`-t`$ for Pauli $`X`$.
 
 These Gaussian coordinates describe collective fluctuations, not a promise of measuring the three noncommuting Pauli observables exactly on each supplied qubit. The theorem constructs compatible approximants for finite Fourier families on the entire list. It holds for the full unitary orbit, including noncommuting target choices; this diagonal Pauli example is only a simple calculation.
 
@@ -154,7 +154,7 @@ A classical outcome saying only “block one” cannot reconstruct the unknown q
 
 ```math
 E_A(X)=\sum_{i=1}^2
-\frac{\operatorname{Tr}(P_iX)}{2}P_i,
+\frac{\mathrm{Tr}(P_iX)}{2}P_i,
 \qquad
 E_A(\lvert+\rangle\langle+\rvert)=\frac{P_1}{2}.
 ```

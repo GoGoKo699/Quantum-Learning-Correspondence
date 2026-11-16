@@ -9,10 +9,10 @@ The word **collective** matters. Each measurement may couple all specimens withi
 Let the input and output dimensions be $`d_A,d_B\ge2`$. Choose complete traceless Hermitian bases with
 
 ```math
-\operatorname{tr}_A(A_aA_c)=\delta_{ac},\qquad
-\operatorname{tr}_B(B_bB_e)=\delta_{be},
-\qquad \operatorname{tr}_A=\frac{\operatorname{Tr}}{d_A},
-\quad \operatorname{tr}_B=\frac{\operatorname{Tr}}{d_B}.
+\mathrm{tr}_A(A_aA_c)=\delta_{ac},\qquad
+\mathrm{tr}_B(B_bB_e)=\delta_{be},
+\qquad \mathrm{tr}_A=\frac{\mathrm{Tr}}{d_A},
+\quad \mathrm{tr}_B=\frac{\mathrm{Tr}}{d_B}.
 ```
 
 Write $`p_A=d_A^2-1`$ and $`p_B=d_B^2-1`$. A physical source with uniform local marginals has the form
@@ -42,24 +42,28 @@ Strict contraction makes every $`\Sigma_T`$ positive definite. This is one Gauss
 
 ## Theorem 7: asymptotic separate-list sufficiency
 
-There are target-independent local projective measurements $`M_N^A`$ on the full input list and $`M_N^B`$ on the full output list, together with target-independent local state-preparation channels $`R_N^A,R_N^B`$, such that
+There are target-independent local projective measurements $`M_N^A`$ on the full input list and $`M_N^B`$ on the full output list, together with target-independent local state-preparation channels $`R_N^A,R_N^B`$. Write their product measurement-and-reconstruction channel as
 
 ```math
-\varepsilon_N:=(d_Ad_B)^{N/2}
+E_N=(R_N^A\otimes R_N^B)(M_N^A\otimes M_N^B).
+```
+
+Then
+
+```math
+\begin{aligned}
+\varepsilon_N&:=(d_Ad_B)^{N/2}
 \sup_{T\in\mathcal K}
-\left\|\Omega_N(T)-
-(R_N^A\otimes R_N^B)(M_N^A\otimes M_N^B)
-\bigl(\Omega_N(T)\bigr)\right\|_2
-\longrightarrow0.
+\left\|\Omega_N(T)-E_N\bigl(\Omega_N(T)\bigr)\right\|_2\\
+&\longrightarrow0.
+\end{aligned}
 ```
 
 Here $`\|\cdot\|_2`$ is the ordinary, unnormalized Hilbert–Schmidt norm. In particular,
 
 ```math
 \sup_{T\in\mathcal K}
-\left\|\Omega_N(T)-
-(R_N^A\otimes R_N^B)(M_N^A\otimes M_N^B)
-\bigl(\Omega_N(T)\bigr)\right\|_1
+\left\|\Omega_N(T)-E_N\bigl(\Omega_N(T)\bigr)\right\|_1
 \le\varepsilon_N\longrightarrow0.
 ```
 
@@ -69,7 +73,7 @@ Moreover, the measured experiment and $`\{P_T:T\in\mathcal K\}`$ are asymptotica
 
 ### 1. The full likelihood norm
 
-Set $`D_N=(d_Ad_B)^N`$, let $`\tau_N(X)=\operatorname{Tr}(X)/D_N`$, and define
+Set $`D_N=(d_Ad_B)^N`$, let $`\tau_N(X)=\mathrm{Tr}(X)/D_N`$, and define
 
 ```math
 L_N(T)=D_N\Omega_N(T),\qquad
@@ -143,16 +147,19 @@ W_N^B(y)=\left(e^{iK_y/\sqrt N}\right)^{\otimes N}.
 Each is invariant under permutations within its list. Hence output shuffling disappears from their joint expectation exactly:
 
 ```math
-\tau_N\!\left[L_N(T)
+\begin{aligned}
+&\tau_N\!\left[L_N(T)
 \bigl(W_N^A(x)\otimes W_N^B(y)\bigr)\right]
-=\left[\operatorname{Tr}\rho_T
+\\
+&\qquad=\left[\mathrm{Tr}\rho_T
 \bigl(e^{iH_x/\sqrt N}\otimes e^{iK_y/\sqrt N}\bigr)\right]^N.
+\end{aligned}
 ```
 
 The source has zero local first moments, unit local covariance in the chosen bases, and cross-covariance $`T`$. A finite-dimensional Taylor expansion gives
 
 ```math
-\operatorname{Tr}\rho_T
+\mathrm{Tr}\rho_T
 \bigl(e^{iH_x/\sqrt N}\otimes e^{iK_y/\sqrt N}\bigr)
 =1-\frac{|x|^2+|y|^2+2x^{\mathsf T}Ty}{2N}
 +O_{x,y}(N^{-3/2}),
@@ -170,7 +177,7 @@ Likewise, the normalized-trace Gram matrices converge to the independent Gaussia
 
 ```math
 \tau_{A,N}\!\left[W_N^A(x)^\dagger W_N^A(x')\right]
-=\left[\operatorname{tr}_A
+=\left[\mathrm{tr}_A
 e^{-iH_x/\sqrt N}e^{iH_{x'}/\sqrt N}\right]^N
 \longrightarrow e^{-|x-x'|^2/2},
 ```
@@ -224,7 +231,7 @@ The one-register commutator is traceless, so cross terms vanish under the produc
 
 ```math
 \bigl\|[F_N^A(x),F_N^A(x')]\bigr\|_{2,\tau_{A,N}}
-=\frac{\|[H_x,H_{x'}]\|_{2,\operatorname{tr}_A}}{\sqrt N}.
+=\frac{\|[H_x,H_{x'}]\|_{2,\mathrm{tr}_A}}{\sqrt N}.
 ```
 
 Duhamel's formula and unitary invariance of this norm give
@@ -256,7 +263,7 @@ The resulting measurement-and-preparation map is
 
 ```math
 E_N(X)=\sum_{i,j}
-\frac{\operatorname{Tr}[(P_i\otimes Q_j)X]}{r_i s_j}
+\frac{\mathrm{Tr}[(P_i\otimes Q_j)X]}{r_i s_j}
 (P_i\otimes Q_j).
 ```
 
@@ -303,7 +310,7 @@ The measured target likelihood relative to $`\mu_N`$ is
 
 ```math
 h_{N,T}(i,j)=
-\frac{\operatorname{Tr}[(P_i\otimes Q_j)L_N(T)]}{r_i s_j}.
+\frac{\mathrm{Tr}[(P_i\otimes Q_j)L_N(T)]}{r_i s_j}.
 ```
 
 It is nonnegative, integrates to one, and represents $`E_NL_N(T)`$. Each finite Fourier sum is a continuous function of the torus coordinates. With the same finite index assignment $`j(T)`$ as above,

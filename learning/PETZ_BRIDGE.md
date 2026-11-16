@@ -19,11 +19,11 @@ A supplied specimen is a quantum register; its hidden preparation label and clas
 
 ```math
 \rho_T=\frac1{d_A d_B}\left(I+\sum_{a,b}T_{ab}A_a\otimes B_b\right),\qquad
-\frac{\operatorname{Tr}(A_aA_c)}{d_A}=\delta_{ac},\quad
-\frac{\operatorname{Tr}(B_bB_e)}{d_B}=\delta_{be}.
+\frac{\mathrm{Tr}(A_aA_c)}{d_A}=\delta_{ac},\quad
+\frac{\mathrm{Tr}(B_bB_e)}{d_B}=\delta_{be}.
 ```
 
-The complete batch dimension is $`D_N=(d_A d_B)^N`$. Its normalized trace is $`\tau_N(X)=\operatorname{Tr}(X)/D_N`$, and its likelihood relative to the maximally mixed reference is $`L_N(T)=D_N\Omega_N(T)`$. The norm $`\|X\|_{2,\tau_N}=\sqrt{\tau_N(X^\dagger X)}`$ is normalized Hilbert–Schmidt. It differs both from ordinary Hilbert–Schmidt norm and from trace norm. This distinction matters when applying Glebsky's theorem and converting likelihood error to density-operator trace error.
+The complete batch dimension is $`D_N=(d_A d_B)^N`$. Its normalized trace is $`\tau_N(X)=\mathrm{Tr}(X)/D_N`$, and its likelihood relative to the maximally mixed reference is $`L_N(T)=D_N\Omega_N(T)`$. The norm $`\|X\|_{2,\tau_N}=\sqrt{\tau_N(X^\dagger X)}`$ is normalized Hilbert–Schmidt. It differs both from ordinary Hilbert–Schmidt norm and from trace norm. This distinction matters when applying Glebsky's theorem and converting likelihood error to density-operator trace error.
 
 Project entropies use natural logarithms and information is in nats. A value in bits is obtained by dividing by $`\ln2`$. The project scores $`F_e`$ and $`F_{\mathrm{avg}}`$ are overlap fidelities; check any reference's squared or unsquared fidelity convention before substitution. A subscript $`N`$ counts pairs inside one anonymous batch, while a later $`m`$ counts independently tagged batches.
 
@@ -42,9 +42,9 @@ The second coarse-graining is chosen by the learner. The separate-list receiver 
 
 ```math
 E_N(X)=\sum_{i,j}
-\frac{\operatorname{Tr}[(P_i\otimes Q_j)X]}{r_i s_j}
+\frac{\mathrm{Tr}[(P_i\otimes Q_j)X]}{r_i s_j}
 (P_i\otimes Q_j),\qquad
-r_i=\operatorname{Tr}P_i,\quad s_j=\operatorname{Tr}Q_j.
+r_i=\mathrm{Tr}P_i,\quad s_j=\mathrm{Tr}Q_j.
 ```
 
 This scalar conditional expectation is completely positive, trace preserving, unital and the orthogonal projection onto a product abelian algebra in $`L^2(\tau_N)`$. Ordinary block pinching can retain quantum information within degenerate blocks; the displayed map replaces each block by its scalar identity and corresponds to a fully classical record. The [worked examples](WORKED_EXAMPLES.md) make the distinction explicit.
