@@ -1,13 +1,13 @@
 {
   "status": "passed",
-  "generated_at_utc": "2026-11-16T14:44:09.227880+00:00",
+  "generated_at_utc": "2026-11-16T14:53:46.337256+00:00",
   "script_sha256": "4089bdcb3e575842519645d035c560e3561442efd89fe8c843df9704aba4d64a",
   "markdown_files": 18,
   "checked_local_links": 169,
   "markdown_sha256": {
     "README.md": "6bbdafd904c4de23d3920d171a8deb5e85068f980bb3601f304300db0c68b07f",
     "learning/MILESTONES.md": "58d366674bfc8218aa247ced4ace1d6ce75c34f0556391702d4be5c12ca8b4a5",
-    "learning/PETZ_BRIDGE.md": "f5ce04828f2ce3692e9db0d54f6596b30281623d33500d01cdabb874e67fa462",
+    "learning/PETZ_BRIDGE.md": "6b716943c0195d95190d0df21954ffeaf85304f129c06ccccc237acbc08f573e",
     "learning/README.md": "dd51cd36ce8c6b05ee1a6f22e0eadf94721d7da7f81cf8546bf3f204c5423450",
     "learning/WATROUS_BRIDGE.md": "d1cd6819b50718e587f5ec058c4abb233a8ab455c65ae5966f6505dc150e2313",
     "learning/WORKED_EXAMPLES.md": "6f44ea6f61a76cde7ae5bcb5f50ad5fa2dc3202990dbdcb025f465d08e05521c",

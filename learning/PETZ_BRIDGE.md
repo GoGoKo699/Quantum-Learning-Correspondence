@@ -57,10 +57,10 @@ The following steps are established in this project's scientific account, with i
 
 1. **Compute the full operator kernel.** The [cycle proof](../science/correlation-kernel.md) reduces two hidden matchings to relative-permutation cycles. It yields an exact finite-batch overlap and, under a strict correlation contraction, the limit
 
-   ```math
-   \Vert L_N(T)\Vert _{2,\tau_N}^2\longrightarrow
-   \det(I-TT^{\mathsf T})^{-1}.
-   ```
+```math
+\Vert L_N(T)\Vert _{2,\tau_N}^2\longrightarrow
+\det(I-TT^{\mathsf T})^{-1}.
+```
 
 2. **Retain the old information conclusion.** The [information proof](../science/information-ceiling.md) converts that bound to an all-measurement Holevo ceiling and a Pauli identification bound. The [paired learner](../science/paired-learning.md) and [prediction reduction](../science/prediction.md) provide the matched operational comparison. None of these upper bounds alone identifies an optimal restricted readout.
 
