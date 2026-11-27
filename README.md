@@ -14,7 +14,7 @@ The receiver uses two registers for one pair at a time and retains only classica
 
 ## What survives in a growing anonymous batch?
 
-At fixed local dimensions, the surviving information becomes classical. For any compact physical source family with uniform local marginals and strictly contractive correlation matrices $`T`$, separate collective measurements of the input list and output list permit target-independent reconstruction of the complete anonymous quantum state with trace-norm error tending to zero. The limiting experiment is one Gaussian observation with covariance
+At fixed local dimensions, the surviving information becomes classical. For any compact physical source family with uniform local marginals and strictly contractive correlation matrices $`\mathrm{T}`$, separate collective measurements of the input list and output list permit target-independent reconstruction of the complete anonymous quantum state with trace-norm error tending to zero. The limiting experiment is one Gaussian observation with covariance
 
 ```math
 \Sigma_T=\begin{pmatrix}I&T\\T^{\mathsf T}&I\end{pmatrix}.
