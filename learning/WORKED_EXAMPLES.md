@@ -10,43 +10,7 @@ Write a Pauli label as $`w=(x,z)`$, in the order used by the [paired decoder](..
 |---|---|---|
 | $`00`$ | $`I`$ | $`\Phi^+`$ |
 | $`10`$ | $`X`$ | $`\Psi^+`$ |
-| # Worked examples: from Bell records to sufficient readout
-
-The first three examples use the [canonical source and acquisition interfaces](../science/model.md), with one qubit per register and visibility one: $`n=1`$, $`d=2`$, $`v=1`$. Preparation seeds remain private. The spectral-reconstruction example then isolates the physical channel used by the [general separate-list theorem](../science/separate-list-readout.md). These calculations explain normalizations and mechanisms; they do not evaluate an optimal finite-batch anonymous measurement or synthesize the limiting receiver.
-
-## The hidden Pauli is a missing Bell outcome
-
-Write a Pauli label as $`w=(x,z)`$, in the order used by the [paired decoder](../science/paired-learning.md):
-
-| Label | Pauli, up to phase | Bell state $`(I\otimes W_b)\lvert\Phi\rangle`$ when used as outcome label $`b`$ |
-|---|---|---|
-| $`00`$ | $`I`$ | $`\Phi^+`$ |
-| $`10`$ | $`X`$ | $`\Psi^+`$ |
-01`$ | | # Worked examples: from Bell records to sufficient readout
-
-The first three examples use the [canonical source and acquisition interfaces](../science/model.md), with one qubit per register and visibility one: $`n=1`$, $`d=2`$, $`v=1`$. Preparation seeds remain private. The spectral-reconstruction example then isolates the physical channel used by the [general separate-list theorem](../science/separate-list-readout.md). These calculations explain normalizations and mechanisms; they do not evaluate an optimal finite-batch anonymous measurement or synthesize the limiting receiver.
-
-## The hidden Pauli is a missing Bell outcome
-
-Write a Pauli label as $`w=(x,z)`$, in the order used by the [paired decoder](../science/paired-learning.md):
-
-| Label | Pauli, up to phase | Bell state $`(I\otimes W_b)\lvert\Phi\rangle`$ when used as outcome label $`b`$ |
-|---|---|---|
-| $`00`$ | $`I`$ | $`\Phi^+`$ |
-| $`10`$ | $`X`$ | $`\Psi^+`$ |
-01`$ | \mathrm{Z}`$ | # Worked examples: from Bell records to sufficient readout
-
-The first three examples use the [canonical source and acquisition interfaces](../science/model.md), with one qubit per register and visibility one: $`n=1`$, $`d=2`$, $`v=1`$. Preparation seeds remain private. The spectral-reconstruction example then isolates the physical channel used by the [general separate-list theorem](../science/separate-list-readout.md). These calculations explain normalizations and mechanisms; they do not evaluate an optimal finite-batch anonymous measurement or synthesize the limiting receiver.
-
-## The hidden Pauli is a missing Bell outcome
-
-Write a Pauli label as $`w=(x,z)`$, in the order used by the [paired decoder](../science/paired-learning.md):
-
-| Label | Pauli, up to phase | Bell state $`(I\otimes W_b)\lvert\Phi\rangle`$ when used as outcome label $`b`$ |
-|---|---|---|
-| $`00`$ | $`I`$ | $`\Phi^+`$ |
-| $`10`$ | $`X`$ | $`\Psi^+`$ |
-\Phi^-`$ |
+| $`01`$ | $`\mathrm{Z}`$ | $`\Phi^-`$ |
 | $`11`$ | $`Y`$ | $`\Psi^-`$, up to phase |
 
 Here $`q(x,z)=xz`$. An identified pair has Bell-outcome probabilities
