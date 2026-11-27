@@ -10,7 +10,7 @@ Write a Pauli label as $`w=(x,z)`$, in the order used by the [paired decoder](..
 |---|---|---|
 | $`00`$ | $`I`$ | $`\Phi^+`$ |
 | $`10`$ | $`X`$ | $`\Psi^+`$ |
-| $`01`$ | $`Z`$ | $`\Phi^-`$ |
+| $`01`$ | $`\mathrm{Z}`$ | $`\Phi^-`$ |
 | $`11`$ | $`Y`$ | $`\Psi^-`$, up to phase |
 
 Here $`q(x,z)=xz`$. An identified pair has Bell-outcome probabilities
