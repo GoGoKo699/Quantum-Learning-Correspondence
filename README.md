@@ -4,6 +4,14 @@
 
 For an explicitly preparable family, the answer changes sharply. A linear number of paired demonstrations permits efficient learning of a hidden Pauli transformation. If the same output specimens are shuffled once across the whole dataset and their pairing is withheld, every batch size has an information ceiling. Even unrestricted collective quantum processing and a coherent model that consumes the data cannot restore reliable learning.
 
+## Run the paired learner
+
+1. Use the [existing source](science/resources.md) at ideal visibility. For each demonstration the source draws a private uniformly random stabilizer state, prepares two copies and applies the same hidden Pauli to the output copy. Supply the learner with the two specimens and their correspondence.
+2. For each matched qubit, apply a CNOT from input to output and a Hadamard to the input. Measure both registers in the computational basis. The input outcomes give the phase bits, and the output outcomes give the flip bits.
+3. Add one [binary affine equation](science/paired-learning.md#the-complete-learner) per pair and solve by Gaussian elimination over two elements. Return the Pauli label, up to global phase, when the augmented system has full rank. Otherwise declare failure or use the specified fixed fallback. The learner proof gives the required pair budget for the chosen failure probability.
+
+The receiver uses two registers for one pair at a time and retains only classical equations between pairs. Each pair uses one CNOT and one Hadamard per matched qubit and yields two measurement bits per matched qubit. The [resource account](science/resources.md) charges the source's randomness, Clifford preparation and hidden Pauli use, as well as pairing and classical decoding. The [worked decoder](learning/WORKED_EXAMPLES.md#the-same-observations-as-a-linear-decoder) follows the same steps on explicit outcomes.
+
 ## What survives in a growing anonymous batch?
 
 At fixed local dimensions, the surviving information becomes classical. For any compact physical source family with uniform local marginals and strictly contractive correlation matrices $`T`$, separate collective measurements of the input list and output list permit target-independent reconstruction of the complete anonymous quantum state with trace-norm error tending to zero. The limiting experiment is one Gaussian observation with covariance
